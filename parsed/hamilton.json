@@ -1,0 +1,229 @@
+{
+  "pool_id": "hamilton",
+  "pool_name": "Hamilton Pool",
+  "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/Hamilton-Pool-215",
+  "source_pdf_url": "https://sfrecpark.org/DocumentCenter/View/28496",
+  "source_pdf_anchor_text": "Hamilton Pool _ Spring 2026 Schedule _ March 17 to June 6",
+  "fetched_at": "2026-05-03T21:48:43.552733+00:00",
+  "effective_start": null,
+  "effective_end": null,
+  "session_count": 27,
+  "sessions": [
+    {
+      "day_of_week": "tuesday",
+      "start_time": "09:00",
+      "end_time": "11:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "** CONTACT COACHES ** for additional information LAP SWIM (4) SELF GUIDED EXERCISE (2)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM (6)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "13:00",
+      "end_time": "15:00",
+      "swim_type": "family_swim",
+      "raw_swim_type": "REC / FAMILY SWIM (2) LAP SWIM (4)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "15:30",
+      "end_time": "18:00",
+      "swim_type": "lessons",
+      "raw_swim_type": "**YOUTH / HS SWIM TEAM ** ^ SWIM LESSONS ^",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "18:30",
+      "end_time": "20:00",
+      "swim_type": "team_practice",
+      "raw_swim_type": "** MASTERS SWIM TEAM**",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "06:30",
+      "end_time": "08:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM (6)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "09:00",
+      "end_time": "11:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM (4) SELF GUIDED EXERCISE (2)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM (6)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "13:00",
+      "end_time": "14:30",
+      "swim_type": "family_swim",
+      "raw_swim_type": "REC / FAMILY SWIM (2) LAP SWIM (4)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "15:00",
+      "end_time": "18:00",
+      "swim_type": "unknown",
+      "raw_swim_type": "** HIGH SCHOOL SWIM MEET**",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "18:30",
+      "end_time": "20:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM (6)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "06:45",
+      "end_time": "08:15",
+      "swim_type": "team_practice",
+      "raw_swim_type": "**MASTERS SWIM TEAM**",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "09:00",
+      "end_time": "11:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM (4) SELF GUIDED EXERCISE (2)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "## LAP SWIM (6) ## Pool is CLOSED : 3/19, 4/16, 5/21",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "13:00",
+      "end_time": "14:30",
+      "swim_type": "family_swim",
+      "raw_swim_type": "## REC / FAMILY SWIM (2) LAP SWIM (4) ## Pool is CLOSED : 3/19, 4/16, 5/21",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "15:30",
+      "end_time": "18:00",
+      "swim_type": "lessons",
+      "raw_swim_type": "**YOUTH / HS SWIM TEAM ** ^ SWIM LESSONS ^",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "18:30",
+      "end_time": "20:00",
+      "swim_type": "team_practice",
+      "raw_swim_type": "**MASTERS SWIM TEAM**",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "06:30",
+      "end_time": "08:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM (6)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "09:00",
+      "end_time": "11:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM (4) SELF GUIDED EXERCISE (2)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM (6)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "13:00",
+      "end_time": "14:30",
+      "swim_type": "family_swim",
+      "raw_swim_type": "REC / FAMILY SWIM (2) LAP SWIM (4)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "15:00",
+      "end_time": "18:00",
+      "swim_type": "unknown",
+      "raw_swim_type": "** HIGH SCHOOL SWIM MEET**",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "18:30",
+      "end_time": "20:00",
+      "swim_type": "family_swim",
+      "raw_swim_type": "REC / FAMILY SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "All SFRPD Pools will CLOSED on Saturday 6/6/26 from 8:30am - 12:30pm for Aquatics In Service Training LAP SWIM (5) (Shared Pool)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "swim_type": "lessons",
+      "raw_swim_type": "^ SWIM LESSONS ^ ( 1 lane + small pool)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "13:30",
+      "end_time": "15:30",
+      "swim_type": "family_swim",
+      "raw_swim_type": "REC / FAMILY SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "16:00",
+      "end_time": "17:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM (6)",
+      "notes": ""
+    }
+  ]
+}

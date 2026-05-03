@@ -1,0 +1,221 @@
+{
+  "pool_id": "garfield",
+  "pool_name": "Garfield Pool",
+  "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/Garfield-Pool-214",
+  "source_pdf_url": "https://sfrecpark.org/DocumentCenter/View/28495",
+  "source_pdf_anchor_text": "Garfield_Spring 2026 Schedule March 15 to June 4",
+  "fetched_at": "2026-05-03T21:48:37.517021+00:00",
+  "effective_start": null,
+  "effective_end": null,
+  "session_count": 26,
+  "sessions": [
+    {
+      "day_of_week": "sunday",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "MAIN POOL-LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "sunday",
+      "start_time": "09:00",
+      "end_time": "11:00",
+      "swim_type": "lessons",
+      "raw_swim_type": "*SMALL POOL- YOUTH LESSONS",
+      "notes": ""
+    },
+    {
+      "day_of_week": "sunday",
+      "start_time": "12:30",
+      "end_time": "14:00",
+      "swim_type": "family_swim",
+      "raw_swim_type": "SMALL POOL - REC/ FAMILY SWIM MAIN POOL-LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "sunday",
+      "start_time": "14:30",
+      "end_time": "16:30",
+      "swim_type": "family_swim",
+      "raw_swim_type": "REC/ FAMILY SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "monday",
+      "start_time": "07:00",
+      "end_time": "08:45",
+      "swim_type": "family_swim",
+      "raw_swim_type": "SMALL POOL - REC/ FAMILY SWIM MAIN POOL - LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "monday",
+      "start_time": "09:00",
+      "end_time": "10:45",
+      "swim_type": "lessons",
+      "raw_swim_type": "MAIN POOL - SENIOR/ THERAPY SWIM *SMALL POOL- SWIM LESSONS",
+      "notes": ""
+    },
+    {
+      "day_of_week": "monday",
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "swim_type": "unknown",
+      "raw_swim_type": "( )",
+      "notes": ""
+    },
+    {
+      "day_of_week": "monday",
+      "start_time": "14:00",
+      "end_time": "15:45",
+      "swim_type": "family_swim",
+      "raw_swim_type": "SMALL POOL - REC/ FAMILY SWIM MAIN POOL - LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "monday",
+      "start_time": "16:00",
+      "end_time": "17:00",
+      "swim_type": "lessons",
+      "raw_swim_type": "*YOUTH LESSONS/ SWIM TEAM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "monday",
+      "start_time": "17:15",
+      "end_time": "18:30",
+      "swim_type": "family_swim",
+      "raw_swim_type": "SMALL POOL - REC/ FAMILY SWIM MAIN POOL - LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "swim_type": "unknown",
+      "raw_swim_type": "()",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "11:15",
+      "end_time": "12:15",
+      "swim_type": "unknown",
+      "raw_swim_type": "( )",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "swim_type": "family_swim",
+      "raw_swim_type": "SMALL POOL - REC/ FAMILY SWIM MAIN POOL - LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "15:45",
+      "end_time": "17:30",
+      "swim_type": "lessons",
+      "raw_swim_type": "*YOUTH LESSONS/ SWIM TEAM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "17:30",
+      "end_time": "19:00",
+      "swim_type": "team_practice",
+      "raw_swim_type": "♦MASTER’S SWIM TEAM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "07:00",
+      "end_time": "08:45",
+      "swim_type": "family_swim",
+      "raw_swim_type": "SMALL POOL - REC/ FAMILY SWIM MAIN POOL - LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "09:00",
+      "end_time": "10:45",
+      "swim_type": "family_swim",
+      "raw_swim_type": "SMALL POOL - REC/ FAMILY SWIM MAIN POOL - SENIOR/THERAPY SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "swim_type": "unknown",
+      "raw_swim_type": "()",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "14:00",
+      "end_time": "15:45",
+      "swim_type": "family_swim",
+      "raw_swim_type": "SMALL POOL - REC/ FAMILY SWIM MAIN POOL - LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "16:00",
+      "end_time": "17:00",
+      "swim_type": "lessons",
+      "raw_swim_type": "*YOUTH LESSONS/ SWIM TEAM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "17:15",
+      "end_time": "19:00",
+      "swim_type": "family_swim",
+      "raw_swim_type": "SMALL POOL - REC/ FAMILY SWIM MAIN POOL - LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "09:30",
+      "end_time": "10:30",
+      "swim_type": "unknown",
+      "raw_swim_type": "()",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "11:00",
+      "end_time": "13:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "MAIN POOL - LAP SWIM CLOSED FOR STAFF TRAINING MAR 19TH, APR 16TH, MAY 21ST",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "swim_type": "family_swim",
+      "raw_swim_type": "SMALL POOL - REC/ FAMILY SWIM MAIN POOL - LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "15:45",
+      "end_time": "17:30",
+      "swim_type": "lessons",
+      "raw_swim_type": "*YOUTH LESSONS/ SWIM TEAM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "17:45",
+      "end_time": "19:00",
+      "swim_type": "team_practice",
+      "raw_swim_type": "♦MASTER’S SWIM TEAM",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "pool_id": "coffman",
+  "pool_name": "Coffman Pool",
+  "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/Coffman-Pool-213",
+  "source_pdf_url": "https://sfrecpark.org/DocumentCenter/View/28927",
+  "source_pdf_anchor_text": "Coffman Pool_Spring26_Apr21_June6",
+  "fetched_at": "2026-05-03T21:48:31.500142+00:00",
+  "effective_start": null,
+  "effective_end": null,
+  "session_count": 29,
+  "sessions": [
+    {
+      "day_of_week": "tuesday",
+      "start_time": "07:00",
+      "end_time": "08:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "08:45",
+      "end_time": "10:00",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "SENIOR/THERAPY SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "swim_type": "unknown",
+      "raw_swim_type": "SELF GUIDED EXERCISE",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "11:30",
+      "end_time": "13:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "14:00",
+      "end_time": "16:00",
+      "swim_type": "family_swim",
+      "raw_swim_type": "REC/FAMILY / SENIOR SWIM (Shared Pool)^",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "16:30",
+      "end_time": "19:00",
+      "swim_type": "team_practice",
+      "raw_swim_type": "YOUTH SYNCHRO**",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "SENIOR/SELF GUIDED EXERCISE",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "11:00",
+      "end_time": "13:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "13:30",
+      "end_time": "14:30",
+      "swim_type": "family_swim",
+      "raw_swim_type": "REC/FAMILY SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "15:30",
+      "end_time": "17:30",
+      "swim_type": "lessons",
+      "raw_swim_type": "LEARN - TO - SWIM LESSONS 1",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "18:00",
+      "end_time": "19:00",
+      "swim_type": "family_swim",
+      "raw_swim_type": "REC/FAMILY /LAP SWIM (Shared Pool)^",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "07:00",
+      "end_time": "08:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "08:45",
+      "end_time": "10:00",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "SENIOR/THERAPY SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "swim_type": "unknown",
+      "raw_swim_type": "SELF GUIDED EXECISE",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "11:30",
+      "end_time": "13:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM Closed every 3rd Thurs of the month for training",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "14:30",
+      "end_time": "16:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "16:30",
+      "end_time": "19:00",
+      "swim_type": "team_practice",
+      "raw_swim_type": "YOUTH SYNCHRO**",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "POOL CLOSED ON: Sat 6/6/26 9am-1pm Thurs 5/21 11:30am-1pm SENIOR/SELF GUIDED EXERCISE",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "10:30",
+      "end_time": "11:15",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "SENIOR / SFUSD (Shared Pool)^",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "11:30",
+      "end_time": "13:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "swim_type": "family_swim",
+      "raw_swim_type": "REC/FAMILY SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "15:30",
+      "end_time": "17:30",
+      "swim_type": "lessons",
+      "raw_swim_type": "LEARN - TO - SWIM LESSONS 1",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "17:30",
+      "end_time": "19:00",
+      "swim_type": "team_practice",
+      "raw_swim_type": "YOUTH SYNCHRO**",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "swim_type": "family_swim",
+      "raw_swim_type": "REC/FAMILY SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "10:30",
+      "end_time": "11:00",
+      "swim_type": "lessons",
+      "raw_swim_type": "LEARN - TO -SWIM LESSONS 1",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "11:45",
+      "end_time": "12:45",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "SENIOR/THERAPY SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "13:00",
+      "end_time": "14:00",
+      "swim_type": "family_swim",
+      "raw_swim_type": "PARENT & CHILD FAMILY SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "14:30",
+      "end_time": "15:45",
+      "swim_type": "family_swim",
+      "raw_swim_type": "REC/FAMILY SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "16:00",
+      "end_time": "17:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM",
+      "notes": ""
+    }
+  ]
+}

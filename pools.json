@@ -1,0 +1,61 @@
+[
+  {
+    "id": "balboa",
+    "name": "Balboa Pool",
+    "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/Balboa-Pool-212"
+  },
+  {
+    "id": "coffman",
+    "name": "Coffman Pool",
+    "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/Coffman-Pool-213"
+  },
+  {
+    "id": "garfield",
+    "name": "Garfield Pool",
+    "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/Garfield-Pool-214"
+  },
+  {
+    "id": "hamilton",
+    "name": "Hamilton Pool",
+    "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/Hamilton-Pool-215"
+  },
+  {
+    "id": "mlk",
+    "name": "Martin Luther King Jr. Pool",
+    "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/Martin-Luther-King-Jr-Pool-216"
+  },
+  {
+    "id": "mission",
+    "name": "Mission Community Pool",
+    "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/Mission-Community-Pool-217",
+    "seasonal": true
+  },
+  {
+    "id": "north_beach_warm",
+    "name": "North Beach Pool (Warm)",
+    "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/North-Beach-Pool-218",
+    "address": "661 Lombard St, San Francisco, CA 94133",
+    "pdf_page_filter": "86°F",
+    "notes": "North Beach is a dual-pool facility; schedule PDF has two pages, one per pool. This entry covers the WARM pool (86°F/30°C, 27 meters). Page filter uses the temperature line because 'WARM POOL' / 'COOL POOL' are rendered as colored text and don't survive text extraction."
+  },
+  {
+    "id": "north_beach_cool",
+    "name": "North Beach Pool (Cool)",
+    "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/North-Beach-Pool-218",
+    "address": "661 Lombard St, San Francisco, CA 94133",
+    "pdf_page_filter": "76°F",
+    "notes": "North Beach is a dual-pool facility; schedule PDF has two pages, one per pool. This entry covers the COOL pool (76°F/30°C, 25 meters). Page filter uses the temperature line because 'WARM POOL' / 'COOL POOL' are rendered as colored text and don't survive text extraction."
+  },
+  {
+    "id": "rossi",
+    "name": "Rossi Pool",
+    "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/Rossi-Pool-219"
+  },
+  {
+    "id": "sava",
+    "name": "Sava Pool",
+    "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/Sava-Pool-220",
+    "maintenance": true,
+    "notes": "Pool closed for maintenance as of 2026-05-03; no swim schedule published. Re-check periodically and clear the maintenance flag when a schedule appears."
+  }
+]

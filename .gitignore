@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Local-only environment overrides (per project guidance: anything user-
+# specific like a home-address "near me" filter should live here, NOT in
+# the inventory). Currently nothing uses this; reserved for future.
+.env
+.env.local
+local.json

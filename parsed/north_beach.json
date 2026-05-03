@@ -1,0 +1,429 @@
+{
+  "pool_id": "north_beach",
+  "pool_name": "North Beach Pool",
+  "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/North-Beach-Pool-218",
+  "source_pdf_url": "https://sfrecpark.org/DocumentCenter/View/28503",
+  "source_pdf_anchor_text": "North Beach Pool_ Spring 2026_ 15MAR to 12JUN",
+  "fetched_at": "2026-05-03T21:49:03.472185+00:00",
+  "effective_start": "2026-03-17",
+  "effective_end": "2026-06-06",
+  "session_count": 52,
+  "sessions": [
+    {
+      "day_of_week": "tuesday",
+      "start_time": "07:30",
+      "end_time": "08:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "08:45",
+      "end_time": "10:00",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "SENIOR SWIM (LAP/THERAPY)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "22:30",
+      "end_time": "12:00",
+      "swim_type": "unknown",
+      "raw_swim_type": "SFUSD **",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "12:30",
+      "end_time": "15:00",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "LAP SWIM (LAP/THERAPY)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "15:30",
+      "end_time": "17:00",
+      "swim_type": "family_swim",
+      "raw_swim_type": "REC/FAMILY SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "17:30",
+      "end_time": "18:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "09:00",
+      "end_time": "10:15",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "SENIOR SWIM (LAP/THERAPY)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "10:30",
+      "end_time": "11:30",
+      "swim_type": "unknown",
+      "raw_swim_type": "SFUSD **",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "23:45",
+      "end_time": "12:45",
+      "swim_type": "unknown",
+      "raw_swim_type": "SELF GUIDED EXERCISE",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "12:50",
+      "end_time": "15:15",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "SENIOR SWIM (LAP/THERAPY",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "15:45",
+      "end_time": "16:15",
+      "swim_type": "lessons",
+      "raw_swim_type": "SWIM LESSONS*",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "16:30",
+      "end_time": "17:00",
+      "swim_type": "lessons",
+      "raw_swim_type": "SWIM LESSONS*",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "17:30",
+      "end_time": "18:30",
+      "swim_type": "family_swim",
+      "raw_swim_type": "REC/FAMILY SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "07:30",
+      "end_time": "08:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "SENIOR SWIM (LAP/THERAPY)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "14:15",
+      "end_time": "15:15",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "LAP SWIM (LAP/THERAPY) CLOSED EVERY 3RD THURS OF THE MONTH FOR TRAINING 11:00 2:00 PM Lap Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "15:20",
+      "end_time": "15:50",
+      "swim_type": "lessons",
+      "raw_swim_type": "ADULT SWIM LESSONS *",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "16:15",
+      "end_time": "17:30",
+      "swim_type": "family_swim",
+      "raw_swim_type": "REC/FAMILY SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "17:30",
+      "end_time": "18:30",
+      "swim_type": "unknown",
+      "raw_swim_type": "DEEP WATER H2O AEROBICS",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "09:00",
+      "end_time": "10:15",
+      "swim_type": "family_swim",
+      "raw_swim_type": "REC/FAMILY—SENIOR SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "10:30",
+      "end_time": "11:30",
+      "swim_type": "unknown",
+      "raw_swim_type": "SFUSD **",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "23:45",
+      "end_time": "12:45",
+      "swim_type": "unknown",
+      "raw_swim_type": "SELF GUIDED EXERCISE",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "12:50",
+      "end_time": "15:15",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "SENIOR SWIM (LAP/THERAPY",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "15:45",
+      "end_time": "16:15",
+      "swim_type": "lessons",
+      "raw_swim_type": "SWIM LESSONS*",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "16:30",
+      "end_time": "17:00",
+      "swim_type": "lessons",
+      "raw_swim_type": "SWIM LESSONS*",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "17:30",
+      "end_time": "19:00",
+      "swim_type": "family_swim",
+      "raw_swim_type": "REC/FAMILY SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "09:00",
+      "end_time": "09:30",
+      "swim_type": "lessons",
+      "raw_swim_type": "SWIM LESSONS LEVEL 1,3 *",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "09:45",
+      "end_time": "10:15",
+      "swim_type": "lessons",
+      "raw_swim_type": "SWIM LESSONS LEVEL 2,3 *",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "10:30",
+      "end_time": "11:00",
+      "swim_type": "lessons",
+      "raw_swim_type": "PRE-SCHOOL LESSONS *",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "12:00",
+      "end_time": "13:15",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "LAP SWIM (LAP/THERAPY)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "13:45",
+      "end_time": "15:00",
+      "swim_type": "family_swim",
+      "raw_swim_type": "REC/FAMILY SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "15:30",
+      "end_time": "17:00",
+      "swim_type": "family_swim",
+      "raw_swim_type": "REC/FAMILY SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "07:30",
+      "end_time": "10:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "12:30",
+      "end_time": "15:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "swim_type": "team_practice",
+      "raw_swim_type": "HS SWIM TEAM**",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "09:00",
+      "end_time": "10:15",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "23:45",
+      "end_time": "15:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "swim_type": "team_practice",
+      "raw_swim_type": "HS SWIM TEAM **",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "17:30",
+      "end_time": "18:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "07:30",
+      "end_time": "10:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "14:15",
+      "end_time": "15:30",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "LAP SWIM (LAP/THERAPY) CLOSED EVERY 3RD THURS OF THE MONTH FOR TRAINING 11:00 2:00 PM LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "swim_type": "team_practice",
+      "raw_swim_type": "HS SWIM TEAM **",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "17:30",
+      "end_time": "18:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "09:00",
+      "end_time": "10:15",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "23:45",
+      "end_time": "15:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "swim_type": "team_practice",
+      "raw_swim_type": "HS SWIM TEAM **",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "17:30",
+      "end_time": "19:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "swim_type": "unknown",
+      "raw_swim_type": "JUNIOR PIRANHAS SWIM*",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "10:15",
+      "end_time": "11:15",
+      "swim_type": "unknown",
+      "raw_swim_type": "PIRANHAS SWIM*",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "12:00",
+      "end_time": "14:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "14:30",
+      "end_time": "16:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "16:30",
+      "end_time": "17:00",
+      "swim_type": "lessons",
+      "raw_swim_type": "ADULT ADV.SWIM LESSONS *",
+      "notes": ""
+    }
+  ]
+}

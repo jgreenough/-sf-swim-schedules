@@ -1,0 +1,57 @@
+name: Refresh swim schedules
+
+# Daily scheduled refresh per PRD M3. Runs parse_all.py against every
+# active pool in pools.json, then commits any changed parsed/*.json and
+# pdfs/*.pdf files back to the repo so consumers always see the latest
+# data on the default branch.
+
+on:
+  schedule:
+    # 13:37 UTC daily = 5:37 AM PST / 6:37 AM PDT.
+    # The minute-37 offset reduces the chance of getting queued behind
+    # GitHub's hourly stampede of cron jobs that fire at :00.
+    - cron: '37 13 * * *'
+  # Allow manual runs from the Actions tab (great for testing the
+  # workflow without waiting for the next cron tick).
+  workflow_dispatch:
+
+# Allow the default GITHUB_TOKEN to push commits back to the repo.
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run parser across all active pools
+        run: python3 parse_all.py
+        # parse_all.py exits 0 on success even if some pools triggered
+        # informational warnings, and exits 1 only on hard parse failures.
+        # A non-zero exit will fail the whole workflow and GitHub will
+        # email the repo owner — that's the desired behavior so a broken
+        # SF Rec & Park layout change is loudly surfaced.
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes to commit — schedules unchanged since last run."
+          else
+            git commit -m "auto: refresh swim schedules $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi
