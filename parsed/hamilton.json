@@ -4,7 +4,7 @@
   "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/Hamilton-Pool-215",
   "source_pdf_url": "https://sfrecpark.org/DocumentCenter/View/28496",
   "source_pdf_anchor_text": "Hamilton Pool _ Spring 2026 Schedule _ March 17 to June 6",
-  "fetched_at": "2026-05-03T21:48:43.552733+00:00",
+  "fetched_at": "2026-05-03T23:31:34.440823+00:00",
   "effective_start": null,
   "effective_end": null,
   "session_count": 27,
@@ -13,7 +13,7 @@
       "day_of_week": "tuesday",
       "start_time": "09:00",
       "end_time": "11:00",
-      "swim_type": "lap_swim",
+      "swim_type": "aqua_fitness",
       "raw_swim_type": "** CONTACT COACHES ** for additional information LAP SWIM (4) SELF GUIDED EXERCISE (2)",
       "notes": ""
     },
@@ -61,7 +61,7 @@
       "day_of_week": "wednesday",
       "start_time": "09:00",
       "end_time": "11:00",
-      "swim_type": "lap_swim",
+      "swim_type": "aqua_fitness",
       "raw_swim_type": "LAP SWIM (4) SELF GUIDED EXERCISE (2)",
       "notes": ""
     },
@@ -85,7 +85,7 @@
       "day_of_week": "wednesday",
       "start_time": "15:00",
       "end_time": "18:00",
-      "swim_type": "unknown",
+      "swim_type": "team_practice",
       "raw_swim_type": "** HIGH SCHOOL SWIM MEET**",
       "notes": ""
     },
@@ -109,7 +109,7 @@
       "day_of_week": "thursday",
       "start_time": "09:00",
       "end_time": "11:00",
-      "swim_type": "lap_swim",
+      "swim_type": "aqua_fitness",
       "raw_swim_type": "LAP SWIM (4) SELF GUIDED EXERCISE (2)",
       "notes": ""
     },
@@ -157,7 +157,7 @@
       "day_of_week": "friday",
       "start_time": "09:00",
       "end_time": "11:00",
-      "swim_type": "lap_swim",
+      "swim_type": "aqua_fitness",
       "raw_swim_type": "LAP SWIM (4) SELF GUIDED EXERCISE (2)",
       "notes": ""
     },
@@ -181,7 +181,7 @@
       "day_of_week": "friday",
       "start_time": "15:00",
       "end_time": "18:00",
-      "swim_type": "unknown",
+      "swim_type": "team_practice",
       "raw_swim_type": "** HIGH SCHOOL SWIM MEET**",
       "notes": ""
     },

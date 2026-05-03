@@ -4,7 +4,7 @@
   "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/Coffman-Pool-213",
   "source_pdf_url": "https://sfrecpark.org/DocumentCenter/View/28927",
   "source_pdf_anchor_text": "Coffman Pool_Spring26_Apr21_June6",
-  "fetched_at": "2026-05-03T21:48:31.500142+00:00",
+  "fetched_at": "2026-05-03T23:31:20.408428+00:00",
   "effective_start": null,
   "effective_end": null,
   "session_count": 29,
@@ -29,7 +29,7 @@
       "day_of_week": "tuesday",
       "start_time": "10:00",
       "end_time": "11:00",
-      "swim_type": "unknown",
+      "swim_type": "aqua_fitness",
       "raw_swim_type": "SELF GUIDED EXERCISE",
       "notes": ""
     },
@@ -61,7 +61,7 @@
       "day_of_week": "wednesday",
       "start_time": "09:00",
       "end_time": "10:30",
-      "swim_type": "senior_therapy",
+      "swim_type": "aqua_fitness",
       "raw_swim_type": "SENIOR/SELF GUIDED EXERCISE",
       "notes": ""
     },
@@ -117,7 +117,7 @@
       "day_of_week": "thursday",
       "start_time": "10:00",
       "end_time": "11:00",
-      "swim_type": "unknown",
+      "swim_type": "aqua_fitness",
       "raw_swim_type": "SELF GUIDED EXECISE",
       "notes": ""
     },
@@ -149,7 +149,7 @@
       "day_of_week": "friday",
       "start_time": "09:00",
       "end_time": "10:30",
-      "swim_type": "senior_therapy",
+      "swim_type": "aqua_fitness",
       "raw_swim_type": "POOL CLOSED ON: Sat 6/6/26 9am-1pm Thurs 5/21 11:30am-1pm SENIOR/SELF GUIDED EXERCISE",
       "notes": ""
     },
@@ -157,7 +157,7 @@
       "day_of_week": "friday",
       "start_time": "10:30",
       "end_time": "11:15",
-      "swim_type": "senior_therapy",
+      "swim_type": "school_class",
       "raw_swim_type": "SENIOR / SFUSD (Shared Pool)^",
       "notes": ""
     },

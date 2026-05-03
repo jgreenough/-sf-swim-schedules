@@ -4,10 +4,10 @@
   "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/Martin-Luther-King-Jr-Pool-216",
   "source_pdf_url": "https://sfrecpark.org/DocumentCenter/View/28771",
   "source_pdf_anchor_text": "MLK_Spring26_Apr07_Jun06_FINAL v2.0",
-  "fetched_at": "2026-05-03T21:48:49.702548+00:00",
+  "fetched_at": "2026-05-03T23:31:43.457305+00:00",
   "effective_start": "2026-04-07",
   "effective_end": "2026-06-06",
-  "session_count": 32,
+  "session_count": 29,
   "sessions": [
     {
       "day_of_week": "tuesday",
@@ -45,7 +45,7 @@
       "day_of_week": "tuesday",
       "start_time": "16:00",
       "end_time": "18:00",
-      "swim_type": "unknown",
+      "swim_type": "recreation_swim",
       "raw_swim_type": "BAYVIEW SAFETY SWIM & SPLASH",
       "notes": ""
     },
@@ -61,7 +61,7 @@
       "day_of_week": "tuesday",
       "start_time": "19:00",
       "end_time": "20:30",
-      "swim_type": "unknown",
+      "swim_type": "team_practice",
       "raw_swim_type": "ADULT WATER POLO** (10)",
       "notes": ""
     },
@@ -93,7 +93,7 @@
       "day_of_week": "wednesday",
       "start_time": "16:00",
       "end_time": "18:00",
-      "swim_type": "unknown",
+      "swim_type": "recreation_swim",
       "raw_swim_type": "BAYVIEW SAFETY SWIM & SPLASH",
       "notes": ""
     },
@@ -141,7 +141,7 @@
       "day_of_week": "thursday",
       "start_time": "16:00",
       "end_time": "18:00",
-      "swim_type": "unknown",
+      "swim_type": "recreation_swim",
       "raw_swim_type": "BAYVIEW SAFETY SWIM & SPLASH",
       "notes": ""
     },
@@ -157,7 +157,7 @@
       "day_of_week": "thursday",
       "start_time": "19:00",
       "end_time": "20:30",
-      "swim_type": "unknown",
+      "swim_type": "team_practice",
       "raw_swim_type": "ADULT WATER POLO** (10)",
       "notes": ""
     },
@@ -189,7 +189,7 @@
       "day_of_week": "friday",
       "start_time": "16:00",
       "end_time": "18:00",
-      "swim_type": "unknown",
+      "swim_type": "recreation_swim",
       "raw_swim_type": "BAYVIEW SAFETY SWIM & SPLASH",
       "notes": ""
     },
@@ -239,30 +239,6 @@
       "end_time": "17:00",
       "swim_type": "lap_swim",
       "raw_swim_type": "LAP SWIM (10)",
-      "notes": ""
-    },
-    {
-      "day_of_week": "saturday",
-      "start_time": "11:00",
-      "end_time": "15:30",
-      "swim_type": "unknown",
-      "raw_swim_type": "April 16,",
-      "notes": ""
-    },
-    {
-      "day_of_week": "saturday",
-      "start_time": "11:00",
-      "end_time": "15:30",
-      "swim_type": "unknown",
-      "raw_swim_type": "May 21,",
-      "notes": ""
-    },
-    {
-      "day_of_week": "saturday",
-      "start_time": "07:00",
-      "end_time": "13:00",
-      "swim_type": "unknown",
-      "raw_swim_type": "June 6,",
       "notes": ""
     }
   ]

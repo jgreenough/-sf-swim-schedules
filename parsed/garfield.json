@@ -4,7 +4,7 @@
   "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/Garfield-Pool-214",
   "source_pdf_url": "https://sfrecpark.org/DocumentCenter/View/28495",
   "source_pdf_anchor_text": "Garfield_Spring 2026 Schedule March 15 to June 4",
-  "fetched_at": "2026-05-03T21:48:37.517021+00:00",
+  "fetched_at": "2026-05-03T23:31:27.397012+00:00",
   "effective_start": null,
   "effective_end": null,
   "session_count": 26,
@@ -61,8 +61,8 @@
       "day_of_week": "monday",
       "start_time": "11:30",
       "end_time": "12:30",
-      "swim_type": "unknown",
-      "raw_swim_type": "( )",
+      "swim_type": "aqua_fitness",
+      "raw_swim_type": "MAIN POOL - LAP SWIM SMALL POOL - WATER EXERCISE ( )",
       "notes": ""
     },
     {
@@ -93,16 +93,16 @@
       "day_of_week": "tuesday",
       "start_time": "09:00",
       "end_time": "10:00",
-      "swim_type": "unknown",
-      "raw_swim_type": "()",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "MAIN POOL - SENIOR/ THERAPY SWIM *SMALL POOL- NVNS CLASS ()",
       "notes": ""
     },
     {
       "day_of_week": "tuesday",
       "start_time": "11:15",
       "end_time": "12:15",
-      "swim_type": "unknown",
-      "raw_swim_type": "( )",
+      "swim_type": "aqua_fitness",
+      "raw_swim_type": "MAIN POOL - LAP SWIM SMALL POOL - WATER EXERCISE ( )",
       "notes": ""
     },
     {
@@ -149,8 +149,8 @@
       "day_of_week": "wednesday",
       "start_time": "11:00",
       "end_time": "12:00",
-      "swim_type": "unknown",
-      "raw_swim_type": "()",
+      "swim_type": "school_class",
+      "raw_swim_type": "MAIN POOL - LAP SWIM *SMALL POOL-SFUSD CLASS ()",
       "notes": ""
     },
     {
@@ -181,8 +181,8 @@
       "day_of_week": "thursday",
       "start_time": "09:30",
       "end_time": "10:30",
-      "swim_type": "unknown",
-      "raw_swim_type": "()",
+      "swim_type": "aqua_fitness",
+      "raw_swim_type": "**MAIN POOL - SENIOR/ THERAPY SWIM (2 LANES) DEEP WATER EXERCISE (1 LANE) ()",
       "notes": ""
     },
     {
