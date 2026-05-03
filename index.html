@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SF Pool Swim Schedules</title>
+  <meta name="description" content="Search lap swim and family swim sessions across San Francisco Recreation &amp; Parks pools.">
+  <style>
+    /* Plain-vanilla CSS. Minimal palette so it works light/dark and prints well. */
+    :root {
+      --bg: #ffffff;
+      --surface: #f7f7f8;
+      --border: #e1e4e8;
+      --text: #1a1a1a;
+      --text-muted: #6b7280;
+      --accent: #2563eb;
+      --type-lap: #2563eb;
+      --type-family: #15803d;
+      --type-lessons: #9333ea;
+      --type-senior: #d97706;
+      --type-school: #6b7280;
+      --type-aqua: #0891b2;
+      --type-team: #be123c;
+      --type-parent: #db2777;
+      --type-rec: #0d9488;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111418;
+        --surface: #181c22;
+        --border: #2a3038;
+        --text: #f3f4f6;
+        --text-muted: #9ca3af;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .page {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 24px 16px 80px;
+    }
+    h1 {
+      margin: 0 0 4px;
+      font-size: 1.6rem;
+      font-weight: 700;
+    }
+    .meta {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin: 0 0 20px;
+    }
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+    .panel h2 {
+      margin: 0 0 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .filter-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--text);
+      font-size: 0.85rem;
+      cursor: pointer;
+      user-select: none;
+      transition: background 0.1s, border-color 0.1s;
+    }
+    .chip:hover { border-color: var(--accent); }
+    .chip[aria-pressed="true"] {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      margin-top: 4px;
+    }
+    .toolbar button {
+      padding: 6px 12px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--text);
+      border-radius: 6px;
+      font-size: 0.85rem;
+      cursor: pointer;
+    }
+    .toolbar button:hover { border-color: var(--accent); }
+    .time-range {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      font-size: 0.9rem;
+    }
+    .time-range input[type="time"] {
+      padding: 4px 8px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--bg);
+      color: var(--text);
+      font-size: 0.9rem;
+    }
+    #results { margin-top: 4px; }
+    .day-section { margin-top: 20px; }
+    .day-section h3 {
+      margin: 0 0 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      padding-bottom: 4px;
+      border-bottom: 2px solid var(--border);
+    }
+    .session {
+      display: grid;
+      grid-template-columns: 110px 1fr auto;
+      gap: 12px;
+      padding: 8px 0;
+      border-bottom: 1px solid var(--border);
+      align-items: center;
+    }
+    .session:last-child { border-bottom: none; }
+    .session-time {
+      font-variant-numeric: tabular-nums;
+      color: var(--text);
+    }
+    .session-type {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      color: white;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+    .session-pool {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      text-align: right;
+    }
+    .session-pool a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .session-pool a:hover { text-decoration: underline; }
+    .empty {
+      padding: 24px;
+      text-align: center;
+      color: var(--text-muted);
+    }
+    @media (max-width: 600px) {
+      .page { padding: 16px 12px 60px; }
+      .session {
+        grid-template-columns: 80px 1fr;
+        grid-template-rows: auto auto;
+        gap: 4px 10px;
+      }
+      .session-pool {
+        grid-column: 1 / -1;
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>SF Pool Swim Schedules</h1>
+    <p class="meta" id="meta">Loading data…</p>
+
+    <section class="panel" aria-labelledby="filters-heading">
+      <h2 id="filters-heading">Filters</h2>
+
+      <div class="panel" style="background: var(--bg); margin-bottom: 12px; padding: 12px;">
+        <div style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 6px;">Swim type</div>
+        <div class="filter-group" id="filter-types"></div>
+      </div>
+
+      <div class="panel" style="background: var(--bg); margin-bottom: 12px; padding: 12px;">
+        <div style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 6px;">Day of week</div>
+        <div class="filter-group" id="filter-days"></div>
+      </div>
+
+      <div class="panel" style="background: var(--bg); margin-bottom: 12px; padding: 12px;">
+        <div style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 6px;">Pool</div>
+        <div class="filter-group" id="filter-pools"></div>
+      </div>
+
+      <div class="panel" style="background: var(--bg); margin-bottom: 0; padding: 12px;">
+        <div style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 6px;">Time of day (start time)</div>
+        <div class="time-range">
+          <span>From</span>
+          <input type="time" id="filter-time-from" step="900">
+          <span>to</span>
+          <input type="time" id="filter-time-to" step="900">
+          <button id="btn-time-clear" type="button">Any time</button>
+        </div>
+      </div>
+
+      <div class="toolbar">
+        <button id="btn-reset" type="button">Reset filters</button>
+        <button id="btn-share" type="button">Copy shareable link</button>
+        <span id="result-count" style="margin-left: auto; font-size: 0.85rem; color: var(--text-muted);"></span>
+      </div>
+    </section>
+
+    <main id="results"><div class="empty">Loading sessions…</div></main>
+  </div>
+
+  <script>
+    // Vanilla JS, no dependencies. Loads pools.json + per-pool parsed JSON
+    // files in parallel, builds filter UI, renders results, and syncs filter
+    // state with the URL hash so links are shareable.
+    //
+    // Data refresh: this page reads files committed to the repo, which the
+    // daily GitHub Actions workflow updates. So the page is always as fresh
+    // as the latest commit on main.
+
+    const DAY_ORDER = [
+      "monday", "tuesday", "wednesday", "thursday",
+      "friday", "saturday", "sunday"
+    ];
+    const DAY_LABELS = {
+      monday: "Monday", tuesday: "Tuesday", wednesday: "Wednesday",
+      thursday: "Thursday", friday: "Friday", saturday: "Saturday",
+      sunday: "Sunday"
+    };
+    // Display names + colors for swim types we know about. Unknown types
+    // get a generic gray chip.
+    const TYPE_META = {
+      lap_swim:        { label: "Lap Swim",        color: "var(--type-lap)" },
+      family_swim:     { label: "Family Swim",     color: "var(--type-family)" },
+      lessons:         { label: "Lessons",         color: "var(--type-lessons)" },
+      senior_therapy:  { label: "Senior / Therapy", color: "var(--type-senior)" },
+      school_class:    { label: "School Class",    color: "var(--type-school)" },
+      aqua_fitness:    { label: "Aqua Fitness",    color: "var(--type-aqua)" },
+      team_practice:   { label: "Team / Masters",  color: "var(--type-team)" },
+      parent_and_tot:  { label: "Parent & Tot",    color: "var(--type-parent)" },
+      recreation_swim: { label: "Recreation Swim", color: "var(--type-rec)" },
+    };
+
+    // Default selection: per PRD §5.3 — both v1-relevant types only.
+    const DEFAULT_TYPES = new Set(["lap_swim", "family_swim"]);
+
+    let state = {
+      allSessions: [],            // [{day, start, end, type, pool, raw, ...}]
+      pools: [],                  // [{id, name, address, source_page_url}]
+      lastUpdated: null,
+      filter: {
+        types: new Set(DEFAULT_TYPES),
+        days: new Set(DAY_ORDER),
+        pools: new Set(),         // empty = all
+        timeFrom: "",
+        timeTo: "",
+      },
+    };
+
+    function fmtTime(hhmm) {
+      // "07:00" -> "7:00 AM"
+      const [h, m] = hhmm.split(":").map(Number);
+      const period = h >= 12 ? "PM" : "AM";
+      const h12 = h % 12 === 0 ? 12 : h % 12;
+      return `${h12}:${m.toString().padStart(2, "0")} ${period}`;
+    }
+
+    async function loadAll() {
+      const inv = await fetch("pools.json").then(r => r.json());
+      // Active pools only (skip maintenance-flagged).
+      const activePools = inv.filter(p => !p.maintenance);
+      const parsed = await Promise.all(activePools.map(async p => {
+        try {
+          const data = await fetch(`parsed/${p.id}.json`).then(r => r.json());
+          return { pool: p, data };
+        } catch (err) {
+          console.warn(`Failed to load parsed/${p.id}.json`, err);
+          return null;
+        }
+      }));
+      const valid = parsed.filter(Boolean);
+      state.pools = valid.map(v => v.pool);
+      state.allSessions = [];
+      let latestFetched = null;
+      for (const v of valid) {
+        if (v.data.fetched_at && (!latestFetched || v.data.fetched_at > latestFetched)) {
+          latestFetched = v.data.fetched_at;
+        }
+        for (const s of v.data.sessions || []) {
+          state.allSessions.push({
+            day: s.day_of_week,
+            start: s.start_time,
+            end: s.end_time,
+            type: s.swim_type,
+            raw: s.raw_swim_type,
+            poolId: v.pool.id,
+            poolName: v.pool.name,
+            poolUrl: v.pool.source_page_url,
+          });
+        }
+      }
+      state.lastUpdated = latestFetched;
+    }
+
+    function renderMeta() {
+      const meta = document.getElementById("meta");
+      let parts = [`${state.pools.length} pools`, `${state.allSessions.length} sessions`];
+      if (state.lastUpdated) {
+        const d = new Date(state.lastUpdated);
+        parts.push(`data refreshed ${d.toLocaleString(undefined, {
+          dateStyle: "medium", timeStyle: "short"
+        })}`);
+      }
+      meta.textContent = parts.join(" · ");
+    }
+
+    function buildFilterChips(containerId, items, isActive, onToggle, labelFor) {
+      const c = document.getElementById(containerId);
+      c.innerHTML = "";
+      for (const item of items) {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "chip";
+        btn.textContent = labelFor(item);
+        btn.setAttribute("aria-pressed", isActive(item) ? "true" : "false");
+        btn.addEventListener("click", () => {
+          onToggle(item);
+          btn.setAttribute("aria-pressed", isActive(item) ? "true" : "false");
+          render();
+          syncHashFromState();
+        });
+        c.appendChild(btn);
+      }
+    }
+
+    function renderFilterControls() {
+      const presentTypes = new Set(state.allSessions.map(s => s.type));
+      // Order types: prefer known ones in a sensible order, then any extras.
+      const knownOrder = [
+        "lap_swim", "family_swim", "lessons", "senior_therapy",
+        "school_class", "aqua_fitness", "team_practice",
+        "parent_and_tot", "recreation_swim"
+      ];
+      const orderedTypes = [
+        ...knownOrder.filter(t => presentTypes.has(t)),
+        ...[...presentTypes].filter(t => !knownOrder.includes(t)).sort(),
+      ];
+      buildFilterChips(
+        "filter-types", orderedTypes,
+        t => state.filter.types.has(t),
+        t => {
+          if (state.filter.types.has(t)) state.filter.types.delete(t);
+          else state.filter.types.add(t);
+        },
+        t => (TYPE_META[t]?.label) || t
+      );
+      buildFilterChips(
+        "filter-days", DAY_ORDER,
+        d => state.filter.days.has(d),
+        d => {
+          if (state.filter.days.has(d)) state.filter.days.delete(d);
+          else state.filter.days.add(d);
+        },
+        d => DAY_LABELS[d].slice(0, 3)
+      );
+      // Pool list ordered alphabetically by name for consistent UI.
+      const sortedPools = [...state.pools].sort((a, b) => a.name.localeCompare(b.name));
+      buildFilterChips(
+        "filter-pools", sortedPools,
+        p => state.filter.pools.size === 0 || state.filter.pools.has(p.id),
+        p => {
+          // If empty (= all), clicking a chip selects only that one.
+          // Otherwise toggle membership; if becoming empty, leave empty (= all).
+          if (state.filter.pools.size === 0) {
+            state.filter.pools = new Set([p.id]);
+          } else if (state.filter.pools.has(p.id)) {
+            state.filter.pools.delete(p.id);
+          } else {
+            state.filter.pools.add(p.id);
+          }
+        },
+        p => p.name
+      );
+
+      const fromInput = document.getElementById("filter-time-from");
+      const toInput = document.getElementById("filter-time-to");
+      fromInput.value = state.filter.timeFrom;
+      toInput.value = state.filter.timeTo;
+      const onTimeChange = () => {
+        state.filter.timeFrom = fromInput.value;
+        state.filter.timeTo = toInput.value;
+        render();
+        syncHashFromState();
+      };
+      fromInput.addEventListener("change", onTimeChange);
+      toInput.addEventListener("change", onTimeChange);
+      document.getElementById("btn-time-clear").addEventListener("click", () => {
+        fromInput.value = ""; toInput.value = "";
+        state.filter.timeFrom = ""; state.filter.timeTo = "";
+        render(); syncHashFromState();
+      });
+
+      document.getElementById("btn-reset").addEventListener("click", () => {
+        state.filter = {
+          types: new Set(DEFAULT_TYPES),
+          days: new Set(DAY_ORDER),
+          pools: new Set(),
+          timeFrom: "", timeTo: "",
+        };
+        renderFilterControls();
+        render();
+        syncHashFromState();
+      });
+      document.getElementById("btn-share").addEventListener("click", async () => {
+        const url = window.location.href;
+        try {
+          await navigator.clipboard.writeText(url);
+          const btn = document.getElementById("btn-share");
+          const orig = btn.textContent;
+          btn.textContent = "Link copied!";
+          setTimeout(() => { btn.textContent = orig; }, 1500);
+        } catch (e) {
+          window.prompt("Copy this link:", url);
+        }
+      });
+    }
+
+    function applyFilter() {
+      const f = state.filter;
+      return state.allSessions.filter(s => {
+        if (!f.types.has(s.type)) return false;
+        if (!f.days.has(s.day)) return false;
+        if (f.pools.size > 0 && !f.pools.has(s.poolId)) return false;
+        if (f.timeFrom && s.start < f.timeFrom) return false;
+        if (f.timeTo && s.start > f.timeTo) return false;
+        return true;
+      });
+    }
+
+    function renderResults(sessions) {
+      const r = document.getElementById("results");
+      const counter = document.getElementById("result-count");
+      counter.textContent = `${sessions.length} session${sessions.length === 1 ? "" : "s"}`;
+      if (sessions.length === 0) {
+        r.innerHTML = `<div class="empty">No sessions match these filters. Try widening your selection.</div>`;
+        return;
+      }
+      const byDay = {};
+      for (const s of sessions) {
+        (byDay[s.day] ||= []).push(s);
+      }
+      const html = [];
+      for (const day of DAY_ORDER) {
+        const list = byDay[day];
+        if (!list || list.length === 0) continue;
+        list.sort((a, b) => a.start.localeCompare(b.start) || a.poolName.localeCompare(b.poolName));
+        html.push(`<section class="day-section"><h3>${DAY_LABELS[day]} <span style="font-weight: 400; color: var(--text-muted); font-size: 0.85em;">(${list.length})</span></h3>`);
+        for (const s of list) {
+          const meta = TYPE_META[s.type] || { label: s.type, color: "var(--text-muted)" };
+          html.push(`
+            <div class="session">
+              <div class="session-time">${fmtTime(s.start)}–${fmtTime(s.end)}</div>
+              <div><span class="session-type" style="background:${meta.color}">${meta.label}</span></div>
+              <div class="session-pool"><a href="${s.poolUrl}" target="_blank" rel="noopener">${s.poolName}</a></div>
+            </div>`);
+        }
+        html.push(`</section>`);
+      }
+      r.innerHTML = html.join("");
+    }
+
+    function render() {
+      renderResults(applyFilter());
+    }
+
+    // ---- URL hash sync (shareable filter state) ----
+
+    function syncHashFromState() {
+      const f = state.filter;
+      const parts = [];
+      if (f.types.size && !setsEqual(f.types, DEFAULT_TYPES)) {
+        parts.push(`types=${[...f.types].join(",")}`);
+      }
+      if (f.days.size !== DAY_ORDER.length) {
+        parts.push(`days=${[...f.days].join(",")}`);
+      }
+      if (f.pools.size > 0) {
+        parts.push(`pools=${[...f.pools].join(",")}`);
+      }
+      if (f.timeFrom) parts.push(`from=${encodeURIComponent(f.timeFrom)}`);
+      if (f.timeTo) parts.push(`to=${encodeURIComponent(f.timeTo)}`);
+      const hash = parts.join("&");
+      // Replace state, not push — avoids cluttering history while toggling filters.
+      history.replaceState(null, "", hash ? `#${hash}` : window.location.pathname + window.location.search);
+    }
+
+    function syncStateFromHash() {
+      const h = window.location.hash.replace(/^#/, "");
+      if (!h) return;
+      const params = new URLSearchParams(h);
+      if (params.has("types")) state.filter.types = new Set(params.get("types").split(",").filter(Boolean));
+      if (params.has("days")) state.filter.days = new Set(params.get("days").split(",").filter(Boolean));
+      if (params.has("pools")) state.filter.pools = new Set(params.get("pools").split(",").filter(Boolean));
+      if (params.has("from")) state.filter.timeFrom = decodeURIComponent(params.get("from"));
+      if (params.has("to")) state.filter.timeTo = decodeURIComponent(params.get("to"));
+    }
+
+    function setsEqual(a, b) {
+      if (a.size !== b.size) return false;
+      for (const x of a) if (!b.has(x)) return false;
+      return true;
+    }
+
+    // ---- bootstrap ----
+
+    (async () => {
+      try {
+        await loadAll();
+      } catch (err) {
+        document.getElementById("results").innerHTML =
+          `<div class="empty">Couldn't load schedule data. ${err.message || err}</div>`;
+        return;
+      }
+      syncStateFromHash();
+      renderMeta();
+      renderFilterControls();
+      render();
+    })();
+  </script>
+</body>
+</html>
