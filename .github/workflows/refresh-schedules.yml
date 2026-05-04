@@ -1,16 +1,23 @@
 name: Refresh swim schedules
 
-# Daily scheduled refresh per PRD M3. Runs parse_all.py against every
+# Weekly scheduled refresh per PRD M3. Runs parse_all.py against every
 # active pool in pools.json, then commits any changed parsed/*.json and
 # pdfs/*.pdf files back to the repo so consumers always see the latest
 # data on the default branch.
+#
+# SF Rec & Park publishes schedules on a seasonal cadence (Spring, Summer,
+# Fall, Winter — every ~3 months), with occasional in-season revisions.
+# Weekly polling catches any change within 7 days of publication, which is
+# acceptable for the personal v1 use case. Daily polling is unnecessary
+# and just adds commit churn.
 
 on:
   schedule:
-    # 13:37 UTC daily = 5:37 AM PST / 6:37 AM PDT.
-    # The minute-37 offset reduces the chance of getting queued behind
-    # GitHub's hourly stampede of cron jobs that fire at :00.
-    - cron: '37 13 * * *'
+    # 13:37 UTC every Monday = 5:37 AM PST / 6:37 AM PDT, start of week.
+    # Minute-37 offset reduces queue contention with the hourly cron
+    # stampede; Monday is chosen so any weekend schedule publication is
+    # caught at the start of the working week.
+    - cron: '37 13 * * 1'
   # Allow manual runs from the Actions tab (great for testing the
   # workflow without waiting for the next cron tick).
   workflow_dispatch:
