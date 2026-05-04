@@ -342,6 +342,7 @@
     function buildFilterChips(containerId, items, isActive, onToggle, labelFor) {
       const c = document.getElementById(containerId);
       c.innerHTML = "";
+      const buttons = [];
       for (const item of items) {
         const btn = document.createElement("button");
         btn.type = "button";
@@ -350,11 +351,18 @@
         btn.setAttribute("aria-pressed", isActive(item) ? "true" : "false");
         btn.addEventListener("click", () => {
           onToggle(item);
-          btn.setAttribute("aria-pressed", isActive(item) ? "true" : "false");
+          // Refresh every chip in this group, not just the one that was
+          // clicked: the pool group's "empty set = all selected" toggle
+          // logic flips sibling states, so updating only the clicked
+          // button leaves the other chips visually stale.
+          for (let i = 0; i < items.length; i++) {
+            buttons[i].setAttribute("aria-pressed", isActive(items[i]) ? "true" : "false");
+          }
           render();
           syncHashFromState();
         });
         c.appendChild(btn);
+        buttons.push(btn);
       }
     }
 
