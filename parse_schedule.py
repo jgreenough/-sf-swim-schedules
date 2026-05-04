@@ -109,10 +109,23 @@ _TEXTUAL_DATE_RANGE_PATTERN = re.compile(
     re.IGNORECASE,
 )
 
-# Order matters; first match wins. Family check first so compound cells
-# like "REC/FAMILY SWIM/ LAP SWIM" classify as family_swim.
+# Order matters; first match wins. The family_swim rule covers everything
+# the public can drop in for: family swim, rec/family swim, recreation
+# swim, open swim, safety swim/splash. Per owner direction, recreation
+# and family are merged into one type — they're the same use case from
+# the user's perspective and SF Rec & Park itself often labels them
+# "REC/FAMILY SWIM" as a single cell. Display label is "Rec/Family Swim".
 _SWIM_TYPE_RULES = [
-    (re.compile(r"\bfamily(?:\s*rec)?\s*swim\b|\brec\s*/\s*family\b|\bfamily\b", re.IGNORECASE), "family_swim"),
+    (re.compile(
+        r"\bfamily(?:\s*rec)?\s*swim\b"
+        r"|\brec\s*/\s*family\b"
+        r"|\bfamily\b"
+        r"|\b(?:recreation|rec)\s*swim\b"
+        r"|\bopen\s*swim\b"
+        r"|\bsafety\s*swim\b"
+        r"|\bsplash\b",
+        re.IGNORECASE,
+    ), "family_swim"),
     # SFUSD label can appear with or without the literal word "class".
     (re.compile(r"\bsfusd\b", re.IGNORECASE), "school_class"),
     (re.compile(r"\b(?:adult|youth)\s*(?:adv\.?\s*)?(?:swim\s*)?lessons\b|\blearn\s*to\s*swim\b|\bswim\s*lesson|\blessons\b|\bpre[-\s]school\s*lessons\b", re.IGNORECASE), "lessons"),
@@ -126,7 +139,6 @@ _SWIM_TYPE_RULES = [
     (re.compile(r"\b(?:senior|therapy|access)\b", re.IGNORECASE), "senior_therapy"),
     (re.compile(r"\bparent\s*(?:and|&|/|n)?\s*(?:child|tot)\b|\btot\s*swim\b", re.IGNORECASE), "parent_and_tot"),
     (re.compile(r"\blap\s*swim\b|\blap\b", re.IGNORECASE), "lap_swim"),
-    (re.compile(r"\b(?:recreation|rec)\s*swim\b|\bopen\s*swim\b|\bsafety\s*swim\b|\bsplash\b", re.IGNORECASE), "recreation_swim"),
     (re.compile(r"\b(?:closed|no\s*swim|closure|holiday)\b", re.IGNORECASE), "closed"),
 ]
 

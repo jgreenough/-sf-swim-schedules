@@ -256,14 +256,16 @@
     // get a generic gray chip.
     const TYPE_META = {
       lap_swim:        { label: "Lap Swim",        color: "var(--type-lap)" },
-      family_swim:     { label: "Family Swim",     color: "var(--type-family)" },
+      // family_swim covers everything in the rec/family/open/recreation
+      // family of public-drop-in sessions — recreation_swim was merged
+      // into family_swim at the parser level so there's only one filter.
+      family_swim:     { label: "Rec/Family Swim", color: "var(--type-family)" },
       lessons:         { label: "Lessons",         color: "var(--type-lessons)" },
       senior_therapy:  { label: "Senior / Therapy", color: "var(--type-senior)" },
       school_class:    { label: "School Class",    color: "var(--type-school)" },
       aqua_fitness:    { label: "Aqua Fitness",    color: "var(--type-aqua)" },
       team_practice:   { label: "Team / Masters",  color: "var(--type-team)" },
       parent_and_tot:  { label: "Parent & Tot",    color: "var(--type-parent)" },
-      recreation_swim: { label: "Recreation Swim", color: "var(--type-rec)" },
     };
 
     // Default selection: per PRD §5.3 — both v1-relevant types only.
@@ -372,7 +374,7 @@
       const knownOrder = [
         "lap_swim", "family_swim", "lessons", "senior_therapy",
         "school_class", "aqua_fitness", "team_practice",
-        "parent_and_tot", "recreation_swim"
+        "parent_and_tot"
       ];
       const orderedTypes = [
         ...knownOrder.filter(t => presentTypes.has(t)),
