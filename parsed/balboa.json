@@ -2,12 +2,12 @@
   "pool_id": "balboa",
   "pool_name": "Balboa Pool",
   "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/Balboa-Pool-212",
-  "source_pdf_url": "https://sfrecpark.org/DocumentCenter/View/28547",
-  "source_pdf_anchor_text": "2026 Balboa Pool Spring Schedule",
-  "fetched_at": "2026-05-11T16:17:48.424883+00:00",
-  "effective_start": "2026-03-17",
+  "source_pdf_url": "https://sfrecpark.org/DocumentCenter/View/29110",
+  "source_pdf_anchor_text": "2026 Spring 2 Pool Schedule Balboa Pool",
+  "fetched_at": "2026-05-18T16:40:07.783772+00:00",
+  "effective_start": "2026-05-06",
   "effective_end": "2026-06-06",
-  "session_count": 29,
+  "session_count": 30,
   "sessions": [
     {
       "day_of_week": "tuesday",
@@ -106,6 +106,14 @@
       "notes": ""
     },
     {
+      "day_of_week": "wednesday",
+      "start_time": "15:30",
+      "end_time": "17:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "LAP SWIM (4 lanes)",
+      "notes": ""
+    },
+    {
       "day_of_week": "thursday",
       "start_time": "07:00",
       "end_time": "08:00",
@@ -188,9 +196,9 @@
     {
       "day_of_week": "friday",
       "start_time": "15:30",
-      "end_time": "17:30",
-      "swim_type": "lessons",
-      "raw_swim_type": "**LEARN TO SWIM",
+      "end_time": "17:00",
+      "swim_type": "family_swim",
+      "raw_swim_type": "REC / FAMILY SWIM",
       "notes": ""
     },
     {
