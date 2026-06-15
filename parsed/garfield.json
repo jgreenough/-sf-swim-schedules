@@ -2,219 +2,99 @@
   "pool_id": "garfield",
   "pool_name": "Garfield Pool",
   "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/Garfield-Pool-214",
-  "source_pdf_url": "https://sfrecpark.org/DocumentCenter/View/28495",
-  "source_pdf_anchor_text": "Garfield_Spring 2026 Schedule March 15 to June 4",
-  "fetched_at": "2026-06-08T16:58:11.108509+00:00",
-  "effective_start": null,
-  "effective_end": null,
-  "session_count": 26,
+  "source_pdf_url": "https://sfrecpark.org/DocumentCenter/View/29362",
+  "source_pdf_anchor_text": "Garfield Pool_Summer 26_June 7 to Aug 13 (1)",
+  "fetched_at": "2026-06-15T18:13:35.913534+00:00",
+  "effective_start": "2026-06-07",
+  "effective_end": "2026-08-13",
+  "session_count": 11,
   "sessions": [
     {
       "day_of_week": "sunday",
       "start_time": "08:30",
       "end_time": "10:30",
-      "swim_type": "lap_swim",
-      "raw_swim_type": "MAIN POOL-LAP SWIM",
-      "notes": ""
-    },
-    {
-      "day_of_week": "sunday",
-      "start_time": "09:00",
-      "end_time": "11:00",
-      "swim_type": "lessons",
-      "raw_swim_type": "*SMALL POOL- YOUTH LESSONS",
-      "notes": ""
-    },
-    {
-      "day_of_week": "sunday",
-      "start_time": "12:30",
-      "end_time": "14:00",
-      "swim_type": "family_swim",
-      "raw_swim_type": "SMALL POOL - REC/ FAMILY SWIM MAIN POOL-LAP SWIM",
+      "swim_type": "unknown",
+      "raw_swim_type": "(Main)",
       "notes": ""
     },
     {
       "day_of_week": "sunday",
       "start_time": "14:30",
       "end_time": "16:30",
-      "swim_type": "family_swim",
-      "raw_swim_type": "REC/ FAMILY SWIM",
+      "swim_type": "unknown",
+      "raw_swim_type": "12:30-2 PM (Main) 12:30-2 PM (Shallow)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "sunday",
+      "start_time": "10:30",
+      "end_time": "11:15",
+      "swim_type": "unknown",
+      "raw_swim_type": "9-9:30 AM (Shallow) 10:30-11 AM (Shallow) (Main)",
       "notes": ""
     },
     {
       "day_of_week": "monday",
-      "start_time": "07:00",
-      "end_time": "08:45",
-      "swim_type": "family_swim",
-      "raw_swim_type": "SMALL POOL - REC/ FAMILY SWIM MAIN POOL - LAP SWIM",
+      "start_time": "13:15",
+      "end_time": "15:15",
+      "swim_type": "unknown",
+      "raw_swim_type": "7-8:30 AM (Main) 5:30-7 PM (Main) 7-8:30 AM (Shallow)",
       "notes": ""
     },
     {
       "day_of_week": "monday",
-      "start_time": "09:00",
-      "end_time": "10:45",
-      "swim_type": "lessons",
-      "raw_swim_type": "MAIN POOL - SENIOR/ THERAPY SWIM *SMALL POOL- SWIM LESSONS",
+      "start_time": "11:30",
+      "end_time": "12:45",
+      "swim_type": "unknown",
+      "raw_swim_type": "5:30-7 PM (Shallow)",
       "notes": ""
     },
     {
       "day_of_week": "monday",
       "start_time": "11:30",
       "end_time": "12:30",
-      "swim_type": "aqua_fitness",
-      "raw_swim_type": "MAIN POOL - LAP SWIM SMALL POOL - WATER EXERCISE ( )",
-      "notes": ""
-    },
-    {
-      "day_of_week": "monday",
-      "start_time": "14:00",
-      "end_time": "15:45",
-      "swim_type": "family_swim",
-      "raw_swim_type": "SMALL POOL - REC/ FAMILY SWIM MAIN POOL - LAP SWIM",
-      "notes": ""
-    },
-    {
-      "day_of_week": "monday",
-      "start_time": "16:00",
-      "end_time": "17:00",
-      "swim_type": "lessons",
-      "raw_swim_type": "*YOUTH LESSONS/ SWIM TEAM",
-      "notes": ""
-    },
-    {
-      "day_of_week": "monday",
-      "start_time": "17:15",
-      "end_time": "18:30",
-      "swim_type": "family_swim",
-      "raw_swim_type": "SMALL POOL - REC/ FAMILY SWIM MAIN POOL - LAP SWIM",
+      "swim_type": "unknown",
+      "raw_swim_type": "(Main)",
       "notes": ""
     },
     {
       "day_of_week": "tuesday",
-      "start_time": "09:00",
-      "end_time": "10:00",
-      "swim_type": "senior_therapy",
-      "raw_swim_type": "MAIN POOL - SENIOR/ THERAPY SWIM *SMALL POOL- NVNS CLASS ()",
+      "start_time": "13:15",
+      "end_time": "15:15",
+      "swim_type": "unknown",
+      "raw_swim_type": "7-8:30 AM (Main) 7-8:30 AM (Shallow)",
       "notes": ""
     },
     {
       "day_of_week": "tuesday",
-      "start_time": "11:15",
-      "end_time": "12:15",
-      "swim_type": "aqua_fitness",
-      "raw_swim_type": "MAIN POOL - LAP SWIM SMALL POOL - WATER EXERCISE ( )",
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "swim_type": "unknown",
+      "raw_swim_type": "(Main)",
       "notes": ""
     },
     {
-      "day_of_week": "tuesday",
-      "start_time": "14:00",
-      "end_time": "15:30",
-      "swim_type": "family_swim",
-      "raw_swim_type": "SMALL POOL - REC/ FAMILY SWIM MAIN POOL - LAP SWIM",
+      "day_of_week": "wednesday",
+      "start_time": "13:15",
+      "end_time": "15:15",
+      "swim_type": "unknown",
+      "raw_swim_type": "7-8:30 AM (Main) 5:30-7 PM (Main) 7-8:30 AM (Shallow)",
       "notes": ""
     },
     {
-      "day_of_week": "tuesday",
+      "day_of_week": "wednesday",
+      "start_time": "11:30",
+      "end_time": "12:45",
+      "swim_type": "unknown",
+      "raw_swim_type": "5:30-7 PM (Shallow)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
       "start_time": "15:45",
-      "end_time": "17:30",
-      "swim_type": "lessons",
-      "raw_swim_type": "*YOUTH LESSONS/ SWIM TEAM",
-      "notes": ""
-    },
-    {
-      "day_of_week": "tuesday",
-      "start_time": "17:30",
-      "end_time": "19:00",
-      "swim_type": "team_practice",
-      "raw_swim_type": "♦MASTER’S SWIM TEAM",
-      "notes": ""
-    },
-    {
-      "day_of_week": "wednesday",
-      "start_time": "07:00",
-      "end_time": "08:45",
-      "swim_type": "family_swim",
-      "raw_swim_type": "SMALL POOL - REC/ FAMILY SWIM MAIN POOL - LAP SWIM",
-      "notes": ""
-    },
-    {
-      "day_of_week": "wednesday",
-      "start_time": "09:00",
-      "end_time": "10:45",
-      "swim_type": "family_swim",
-      "raw_swim_type": "SMALL POOL - REC/ FAMILY SWIM MAIN POOL - SENIOR/THERAPY SWIM",
-      "notes": ""
-    },
-    {
-      "day_of_week": "wednesday",
-      "start_time": "11:00",
-      "end_time": "12:00",
-      "swim_type": "school_class",
-      "raw_swim_type": "MAIN POOL - LAP SWIM *SMALL POOL-SFUSD CLASS ()",
-      "notes": ""
-    },
-    {
-      "day_of_week": "wednesday",
-      "start_time": "14:00",
-      "end_time": "15:45",
-      "swim_type": "family_swim",
-      "raw_swim_type": "SMALL POOL - REC/ FAMILY SWIM MAIN POOL - LAP SWIM",
-      "notes": ""
-    },
-    {
-      "day_of_week": "wednesday",
-      "start_time": "16:00",
-      "end_time": "17:00",
-      "swim_type": "lessons",
-      "raw_swim_type": "*YOUTH LESSONS/ SWIM TEAM",
-      "notes": ""
-    },
-    {
-      "day_of_week": "wednesday",
-      "start_time": "17:15",
-      "end_time": "19:00",
-      "swim_type": "family_swim",
-      "raw_swim_type": "SMALL POOL - REC/ FAMILY SWIM MAIN POOL - LAP SWIM",
-      "notes": ""
-    },
-    {
-      "day_of_week": "thursday",
-      "start_time": "09:30",
-      "end_time": "10:30",
-      "swim_type": "aqua_fitness",
-      "raw_swim_type": "**MAIN POOL - SENIOR/ THERAPY SWIM (2 LANES) DEEP WATER EXERCISE (1 LANE) ()",
-      "notes": ""
-    },
-    {
-      "day_of_week": "thursday",
-      "start_time": "11:00",
-      "end_time": "13:00",
-      "swim_type": "lap_swim",
-      "raw_swim_type": "MAIN POOL - LAP SWIM CLOSED FOR STAFF TRAINING MAR 19TH, APR 16TH, MAY 21ST",
-      "notes": ""
-    },
-    {
-      "day_of_week": "thursday",
-      "start_time": "14:00",
-      "end_time": "15:30",
-      "swim_type": "family_swim",
-      "raw_swim_type": "SMALL POOL - REC/ FAMILY SWIM MAIN POOL - LAP SWIM",
-      "notes": ""
-    },
-    {
-      "day_of_week": "thursday",
-      "start_time": "15:45",
-      "end_time": "17:30",
-      "swim_type": "lessons",
-      "raw_swim_type": "*YOUTH LESSONS/ SWIM TEAM",
-      "notes": ""
-    },
-    {
-      "day_of_week": "thursday",
-      "start_time": "17:45",
-      "end_time": "19:00",
-      "swim_type": "team_practice",
-      "raw_swim_type": "♦MASTER’S SWIM TEAM",
+      "end_time": "17:15",
+      "swim_type": "unknown",
+      "raw_swim_type": "(Shallow) 9-11 AM",
       "notes": ""
     }
   ]
