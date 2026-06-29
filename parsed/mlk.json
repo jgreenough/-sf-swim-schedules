@@ -2,99 +2,291 @@
   "pool_id": "mlk",
   "pool_name": "Martin Luther King Jr. Pool",
   "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/Martin-Luther-King-Jr-Pool-216",
-  "source_pdf_url": "https://sfrecpark.org/DocumentCenter/View/29328",
-  "source_pdf_anchor_text": "MLK Pool_ Summer 2026 _Jun9_ Aug15",
-  "fetched_at": "2026-06-22T18:06:07.441935+00:00",
+  "source_pdf_url": "https://sfrecpark.org/DocumentCenter/View/29578",
+  "source_pdf_anchor_text": "MLK Pool_ Summer 2026 _Jun9_ Aug15th",
+  "fetched_at": "2026-06-29T16:46:20.307508+00:00",
   "effective_start": "2026-06-09",
   "effective_end": "2026-08-15",
-  "session_count": 15,
+  "session_count": 41,
   "sessions": [
     {
       "day_of_week": "tuesday",
+      "start_time": "07:30",
+      "end_time": "09:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim (10)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
       "start_time": "09:00",
       "end_time": "11:00",
-      "swim_type": "unknown",
-      "raw_swim_type": "(Shallow) (6)",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "Senior Lap Swim (4 & shallow)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim (4)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "12:30",
+      "end_time": "15:30",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Rec/Family Swim (shallow)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "12:30",
+      "end_time": "15:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim (8)",
       "notes": ""
     },
     {
       "day_of_week": "tuesday",
       "start_time": "15:30",
       "end_time": "17:30",
-      "swim_type": "unknown",
-      "raw_swim_type": "(Shallow)",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim (4)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "15:45",
+      "end_time": "17:45",
+      "swim_type": "lessons",
+      "raw_swim_type": "Swim Lessons (4 & shallow)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "18:00",
+      "end_time": "19:00",
+      "swim_type": "aqua_fitness",
+      "raw_swim_type": "Water Exercise (shallow)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "18:00",
+      "end_time": "19:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim (8)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "19:00",
+      "end_time": "20:30",
+      "swim_type": "team_practice",
+      "raw_swim_type": "RENTALS (10) MASTERS",
       "notes": ""
     },
     {
       "day_of_week": "wednesday",
       "start_time": "09:00",
       "end_time": "10:30",
-      "swim_type": "unknown",
-      "raw_swim_type": "(Shallow) (5)",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "Senior Lap Swim (4 & shallow)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim (4)",
       "notes": ""
     },
     {
       "day_of_week": "wednesday",
       "start_time": "10:30",
-      "end_time": "11:00",
-      "swim_type": "unknown",
-      "raw_swim_type": "(3 & Shallow)",
+      "end_time": "12:30",
+      "swim_type": "lessons",
+      "raw_swim_type": "Swim Lessons (shallow)",
       "notes": ""
     },
     {
       "day_of_week": "wednesday",
-      "start_time": "11:00",
-      "end_time": "12:30",
-      "swim_type": "unknown",
-      "raw_swim_type": "(Shallow)",
+      "start_time": "12:30",
+      "end_time": "15:30",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Rec/Family Swim (shallow)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "12:30",
+      "end_time": "15:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim (8)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "15:30",
+      "end_time": "17:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim (4)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "15:45",
+      "end_time": "17:45",
+      "swim_type": "lessons",
+      "raw_swim_type": "Swim Lessons (4 & shallow)",
       "notes": ""
     },
     {
       "day_of_week": "wednesday",
       "start_time": "18:00",
       "end_time": "20:00",
-      "swim_type": "unknown",
-      "raw_swim_type": "(Shallow) (10)",
+      "swim_type": "team_practice",
+      "raw_swim_type": "RENTALS (10) SYNCHRO/HOCKEY",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "07:30",
+      "end_time": "09:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim (10)",
       "notes": ""
     },
     {
       "day_of_week": "thursday",
       "start_time": "09:00",
-      "end_time": "11:00",
-      "swim_type": "unknown",
-      "raw_swim_type": "(Shallow) (6)",
+      "end_time": "10:30",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "Senior Lap Swim (4 & shallow)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim (4)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "12:30",
+      "end_time": "15:30",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Rec/Family Swim (shallow)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "12:30",
+      "end_time": "15:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim (8)",
       "notes": ""
     },
     {
       "day_of_week": "thursday",
       "start_time": "15:30",
       "end_time": "17:30",
-      "swim_type": "unknown",
-      "raw_swim_type": "(Shallow)",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim (4)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "15:45",
+      "end_time": "17:45",
+      "swim_type": "lessons",
+      "raw_swim_type": "Swim Lessons (4 & shallow)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "18:00",
+      "end_time": "19:00",
+      "swim_type": "aqua_fitness",
+      "raw_swim_type": "Water Exercise (shallow)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "18:00",
+      "end_time": "19:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim (8)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "19:00",
+      "end_time": "20:30",
+      "swim_type": "team_practice",
+      "raw_swim_type": "RENTALS (10) MASTERS",
       "notes": ""
     },
     {
       "day_of_week": "friday",
       "start_time": "09:00",
       "end_time": "10:30",
-      "swim_type": "unknown",
-      "raw_swim_type": "(Shallow) (5)",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "Senior Lap Swim (4 & shallow)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim (4)",
       "notes": ""
     },
     {
       "day_of_week": "friday",
       "start_time": "10:30",
-      "end_time": "11:00",
-      "swim_type": "unknown",
-      "raw_swim_type": "(3 & shallow)",
+      "end_time": "12:30",
+      "swim_type": "lessons",
+      "raw_swim_type": "Swim Lessons (shallow)",
       "notes": ""
     },
     {
       "day_of_week": "friday",
-      "start_time": "11:00",
-      "end_time": "12:30",
-      "swim_type": "unknown",
-      "raw_swim_type": "(Shallow)",
+      "start_time": "12:30",
+      "end_time": "15:30",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Rec/Family Swim (shallow)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "12:30",
+      "end_time": "15:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim (8)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "15:30",
+      "end_time": "17:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim (4)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "15:45",
+      "end_time": "17:45",
+      "swim_type": "lessons",
+      "raw_swim_type": "Swim Lessons (4 & shallow)",
       "notes": ""
     },
     {
@@ -102,31 +294,47 @@
       "start_time": "18:00",
       "end_time": "20:00",
       "swim_type": "unknown",
-      "raw_swim_type": "(Shallow) (10)",
+      "raw_swim_type": "RENTALS (10) YOUTH HOCKEY",
       "notes": ""
     },
     {
       "day_of_week": "saturday",
-      "start_time": "10:30",
-      "end_time": "11:00",
-      "swim_type": "unknown",
-      "raw_swim_type": "(Shallow)",
-      "notes": ""
-    },
-    {
-      "day_of_week": "saturday",
-      "start_time": "11:00",
-      "end_time": "12:00",
-      "swim_type": "unknown",
-      "raw_swim_type": "(Shallow)",
+      "start_time": "07:00",
+      "end_time": "08:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim (10)",
       "notes": ""
     },
     {
       "day_of_week": "saturday",
       "start_time": "09:00",
       "end_time": "11:00",
-      "swim_type": "unknown",
-      "raw_swim_type": "(Shallow) (8)",
+      "swim_type": "team_practice",
+      "raw_swim_type": "RENTALS (7) MASTERS/SYNCHRO",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "swim_type": "lessons",
+      "raw_swim_type": "Swim Lessons (1 & shallow)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "13:30",
+      "end_time": "15:00",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Rec/Family Swim (10)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "15:30",
+      "end_time": "17:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim (10)",
       "notes": ""
     }
   ]

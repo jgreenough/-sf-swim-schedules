@@ -2,19 +2,19 @@
   "pool_id": "coffman",
   "pool_name": "Coffman Pool",
   "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/Coffman-Pool-213",
-  "source_pdf_url": "https://sfrecpark.org/DocumentCenter/View/29320",
-  "source_pdf_anchor_text": "Coffman_Pool_Summer_2026_June9_Aug12 (1)",
-  "fetched_at": "2026-06-22T18:05:51.689280+00:00",
+  "source_pdf_url": "https://sfrecpark.org/DocumentCenter/View/29563",
+  "source_pdf_anchor_text": "Coffman Pool SUMMER 2026_June_9_Aug_15",
+  "fetched_at": "2026-06-29T16:46:08.025130+00:00",
   "effective_start": "2026-06-09",
   "effective_end": "2026-08-15",
-  "session_count": 6,
+  "session_count": 36,
   "sessions": [
     {
       "day_of_week": "tuesday",
-      "start_time": "10:30",
-      "end_time": "12:15",
-      "swim_type": "unknown",
-      "raw_swim_type": "(4 LANES)",
+      "start_time": "07:00",
+      "end_time": "08:15",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim",
       "notes": ""
     },
     {
@@ -22,39 +22,279 @@
       "start_time": "08:30",
       "end_time": "10:00",
       "swim_type": "unknown",
-      "raw_swim_type": "(2 LANES)",
+      "raw_swim_type": "Summer LTS^",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "10:30",
+      "end_time": "12:15",
+      "swim_type": "aqua_fitness",
+      "raw_swim_type": "Senior Swim (4 lanes) Self-Guided Exercise (2 lanes)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "12:45",
+      "end_time": "13:15",
+      "swim_type": "unknown",
+      "raw_swim_type": "SFRPD Camps",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "13:30",
+      "end_time": "15:00",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Family Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "15:30",
+      "end_time": "17:00",
+      "swim_type": "unknown",
+      "raw_swim_type": "Summer LTS^",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "16:15",
+      "end_time": "17:00",
+      "swim_type": "lessons",
+      "raw_swim_type": "Adult Swim Lessons^",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "17:00",
+      "end_time": "19:00",
+      "swim_type": "team_practice",
+      "raw_swim_type": "Rentals (Synchro)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "08:30",
+      "end_time": "10:00",
+      "swim_type": "unknown",
+      "raw_swim_type": "Summer LTS^",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "10:30",
+      "end_time": "12:15",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "12:45",
+      "end_time": "13:15",
+      "swim_type": "unknown",
+      "raw_swim_type": "SFRPD Camps",
       "notes": ""
     },
     {
       "day_of_week": "wednesday",
       "start_time": "13:30",
       "end_time": "15:00",
-      "swim_type": "unknown",
-      "raw_swim_type": "(3 LANES)",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Family Swim",
       "notes": ""
     },
     {
       "day_of_week": "wednesday",
+      "start_time": "15:30",
+      "end_time": "17:00",
+      "swim_type": "unknown",
+      "raw_swim_type": "Summer LTS^",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "16:15",
+      "end_time": "17:00",
+      "swim_type": "lessons",
+      "raw_swim_type": "Adult Swim Lessons^",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "17:30",
+      "end_time": "19:00",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Family Swim (3 lanes)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "17:30",
+      "end_time": "19:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim (3 lanes)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "07:00",
+      "end_time": "08:15",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
       "start_time": "08:30",
       "end_time": "10:00",
       "swim_type": "unknown",
-      "raw_swim_type": "(3 LANES) — —",
+      "raw_swim_type": "Summer LTS^",
       "notes": ""
     },
     {
       "day_of_week": "thursday",
       "start_time": "10:30",
       "end_time": "12:15",
-      "swim_type": "unknown",
-      "raw_swim_type": "(4 LANES)",
+      "swim_type": "aqua_fitness",
+      "raw_swim_type": "Senior Swim (4 lanes) Self-Guided Exercise (2 lanes)",
       "notes": ""
     },
     {
       "day_of_week": "thursday",
+      "start_time": "12:45",
+      "end_time": "13:15",
+      "swim_type": "unknown",
+      "raw_swim_type": "SFRPD Camps",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "13:30",
+      "end_time": "15:00",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Family Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "15:30",
+      "end_time": "17:00",
+      "swim_type": "unknown",
+      "raw_swim_type": "Summer LTS^",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "16:15",
+      "end_time": "17:00",
+      "swim_type": "lessons",
+      "raw_swim_type": "Adult Swim Lessons^",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "17:00",
+      "end_time": "19:00",
+      "swim_type": "team_practice",
+      "raw_swim_type": "Rentals (Synchro)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
       "start_time": "08:30",
       "end_time": "10:00",
       "swim_type": "unknown",
-      "raw_swim_type": "(2 LANES)",
+      "raw_swim_type": "Summer LTS^",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "10:30",
+      "end_time": "12:15",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "12:45",
+      "end_time": "13:15",
+      "swim_type": "unknown",
+      "raw_swim_type": "SFRPD Camps",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "13:30",
+      "end_time": "15:00",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Family Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "15:30",
+      "end_time": "17:00",
+      "swim_type": "unknown",
+      "raw_swim_type": "Summer LTS^",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "16:15",
+      "end_time": "17:00",
+      "swim_type": "lessons",
+      "raw_swim_type": "Adult Swim Lessons^",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "17:30",
+      "end_time": "19:00",
+      "swim_type": "team_practice",
+      "raw_swim_type": "Rentals (Synchro)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "09:00",
+      "end_time": "11:00",
+      "swim_type": "lessons",
+      "raw_swim_type": "Learn To Swim^",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "11:45",
+      "end_time": "12:45",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "Senior Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "13:00",
+      "end_time": "14:00",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Parent and Tots Family Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "14:30",
+      "end_time": "15:45",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Family Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "16:00",
+      "end_time": "17:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim",
       "notes": ""
     }
   ]

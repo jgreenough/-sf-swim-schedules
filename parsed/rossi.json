@@ -2,27 +2,307 @@
   "pool_id": "rossi",
   "pool_name": "Rossi Pool",
   "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/Rossi-Pool-219",
-  "source_pdf_url": "https://sfrecpark.org/DocumentCenter/View/29326",
-  "source_pdf_anchor_text": "RossiPool_Summer2026_June7_Aug13",
-  "fetched_at": "2026-06-22T18:06:28.981394+00:00",
+  "source_pdf_url": "https://sfrecpark.org/DocumentCenter/View/29570",
+  "source_pdf_anchor_text": "RossiPool__Summer2026_June7_Aug13",
+  "fetched_at": "2026-06-29T16:46:37.666431+00:00",
   "effective_start": "2026-06-07",
   "effective_end": "2026-08-13",
-  "session_count": 2,
+  "session_count": 37,
   "sessions": [
+    {
+      "day_of_week": "sunday",
+      "start_time": "07:30",
+      "end_time": "08:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "sunday",
+      "start_time": "09:00",
+      "end_time": "11:00",
+      "swim_type": "lessons",
+      "raw_swim_type": "Learn to Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "sunday",
+      "start_time": "10:30",
+      "end_time": "11:00",
+      "swim_type": "lessons",
+      "raw_swim_type": "Adult Swim Lessons",
+      "notes": ""
+    },
+    {
+      "day_of_week": "sunday",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "swim_type": "parent_and_tot",
+      "raw_swim_type": "Parent and Tot Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "sunday",
+      "start_time": "12:30",
+      "end_time": "14:00",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Rec/Family Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "sunday",
+      "start_time": "14:30",
+      "end_time": "15:30",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Rec/Family Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "monday",
+      "start_time": "07:00",
+      "end_time": "08:15",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "monday",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "swim_type": "unknown",
+      "raw_swim_type": "Summer LTS",
+      "notes": ""
+    },
+    {
+      "day_of_week": "monday",
+      "start_time": "11:00",
+      "end_time": "13:30",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Rec/Family Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "monday",
+      "start_time": "14:00",
+      "end_time": "15:45",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "monday",
+      "start_time": "16:00",
+      "end_time": "18:00",
+      "swim_type": "lessons",
+      "raw_swim_type": "Learn to Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "monday",
+      "start_time": "16:00",
+      "end_time": "18:00",
+      "swim_type": "unknown",
+      "raw_swim_type": "Rentals (Club)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "monday",
+      "start_time": "17:30",
+      "end_time": "18:00",
+      "swim_type": "lessons",
+      "raw_swim_type": "Adult Swim Lessons",
+      "notes": ""
+    },
+    {
+      "day_of_week": "monday",
+      "start_time": "18:15",
+      "end_time": "19:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "07:00",
+      "end_time": "08:15",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "swim_type": "unknown",
+      "raw_swim_type": "Summer LTS",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "Senior /Therapy Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "12:45",
+      "end_time": "13:45",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Rec/Family Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "16:00",
+      "end_time": "18:00",
+      "swim_type": "unknown",
+      "raw_swim_type": "Rentals (Club)",
+      "notes": ""
+    },
     {
       "day_of_week": "tuesday",
       "start_time": "18:15",
       "end_time": "19:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim (3 lanes)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "18:15",
+      "end_time": "19:30",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Rec/Family Swim ( 3 lanes)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "08:30",
+      "end_time": "10:30",
       "swim_type": "unknown",
-      "raw_swim_type": "(3 lanes)",
+      "raw_swim_type": "Summer LTS",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "11:00",
+      "end_time": "13:30",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Rec/Family Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "14:00",
+      "end_time": "15:45",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "16:00",
+      "end_time": "18:00",
+      "swim_type": "lessons",
+      "raw_swim_type": "Learn to Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "16:00",
+      "end_time": "18:00",
+      "swim_type": "unknown",
+      "raw_swim_type": "Rentals (Club)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "17:30",
+      "end_time": "18:00",
+      "swim_type": "lessons",
+      "raw_swim_type": "Adult Swim Lessons",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "07:00",
+      "end_time": "08:15",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "swim_type": "unknown",
+      "raw_swim_type": "Summer LTS",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "Senior/Therapy Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "23:30",
+      "end_time": "12:30",
+      "swim_type": "aqua_fitness",
+      "raw_swim_type": "Water Exercise (Instructor Lead)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "12:45",
+      "end_time": "13:45",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Rec/Family Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "16:00",
+      "end_time": "18:00",
+      "swim_type": "unknown",
+      "raw_swim_type": "Rentals (Club)",
       "notes": ""
     },
     {
       "day_of_week": "thursday",
       "start_time": "18:15",
       "end_time": "19:30",
-      "swim_type": "unknown",
-      "raw_swim_type": "(3 lanes)",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim (3 lanes)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "18:15",
+      "end_time": "19:30",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Rec/Family Swim (3 lanes)",
       "notes": ""
     }
   ]

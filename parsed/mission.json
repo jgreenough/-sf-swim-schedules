@@ -2,19 +2,147 @@
   "pool_id": "mission",
   "pool_name": "Mission Community Pool",
   "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/Mission-Community-Pool-217",
-  "source_pdf_url": "https://sfrecpark.org/DocumentCenter/View/29395",
-  "source_pdf_anchor_text": "Mission_Pool_Summer_2026_June9__Aug16",
-  "fetched_at": "2026-06-22T18:06:12.635844+00:00",
+  "source_pdf_url": "https://sfrecpark.org/DocumentCenter/View/29566",
+  "source_pdf_anchor_text": "Mission Summer 2026_June 9_Aug 15",
+  "fetched_at": "2026-06-29T16:46:24.876827+00:00",
   "effective_start": "2026-06-09",
-  "effective_end": "2026-08-16",
-  "session_count": 2,
+  "effective_end": "2026-08-15",
+  "session_count": 27,
   "sessions": [
+    {
+      "day_of_week": "tuesday",
+      "start_time": "07:00",
+      "end_time": "08:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "Parent & Tot (1) / Senior Swim (3)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "10:45",
+      "end_time": "12:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "12:45",
+      "end_time": "13:45",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "Senior / Therapy Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Family Swim",
+      "notes": ""
+    },
     {
       "day_of_week": "tuesday",
       "start_time": "15:15",
       "end_time": "17:15",
       "swim_type": "unknown",
-      "raw_swim_type": "5:45- 7 PM 2-3 PM 9-10:30 AM (3 Lanes)",
+      "raw_swim_type": "Summer LTS",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "17:45",
+      "end_time": "19:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "Senior / Therapy Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "10:45",
+      "end_time": "12:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "12:45",
+      "end_time": "13:45",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "Senior / Therapy Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "14:00",
+      "end_time": "16:00",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Family Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "16:30",
+      "end_time": "19:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "07:00",
+      "end_time": "08:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "Parent & Tot (1) / Senior Swim (3)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "10:45",
+      "end_time": "12:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "12:45",
+      "end_time": "13:45",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "Senior / Therapy Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Family Swim",
       "notes": ""
     },
     {
@@ -22,7 +150,79 @@
       "start_time": "15:15",
       "end_time": "17:15",
       "swim_type": "unknown",
-      "raw_swim_type": "5:45-7 PM 2-3 PM 9-10:30 AM (3 Lanes)",
+      "raw_swim_type": "Summer LTS",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "17:45",
+      "end_time": "19:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "Senior / Therapy Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "11:00",
+      "end_time": "13:00",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Family Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "13:30",
+      "end_time": "16:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "17:00",
+      "end_time": "19:00",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Family Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "09:00",
+      "end_time": "10:15",
+      "swim_type": "lessons",
+      "raw_swim_type": "Swim Lessons",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "10:45",
+      "end_time": "12:30",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Family Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "14:00",
+      "end_time": "15:15",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Family Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "15:30",
+      "end_time": "17:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim",
       "notes": ""
     }
   ]
