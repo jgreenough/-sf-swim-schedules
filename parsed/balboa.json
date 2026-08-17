@@ -2,12 +2,12 @@
   "pool_id": "balboa",
   "pool_name": "Balboa Pool",
   "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/Balboa-Pool-212",
-  "source_pdf_url": "https://sfrecpark.org/DocumentCenter/View/29562",
-  "source_pdf_anchor_text": "Balboa Summer 26 June 3_Aug 16",
-  "fetched_at": "2026-08-10T14:39:48.827143+00:00",
-  "effective_start": "2026-06-09",
-  "effective_end": "2026-08-15",
-  "session_count": 27,
+  "source_pdf_url": "https://sfrecpark.org/DocumentCenter/View/29797",
+  "source_pdf_anchor_text": "2026 Balboa Pool Interim Schedule Aug 11 to Aug 29",
+  "fetched_at": "2026-08-17T14:03:24.771785+00:00",
+  "effective_start": "2026-08-11",
+  "effective_end": "2026-08-29",
+  "session_count": 29,
   "sessions": [
     {
       "day_of_week": "tuesday",
@@ -21,32 +21,40 @@
       "day_of_week": "tuesday",
       "start_time": "08:30",
       "end_time": "10:00",
-      "swim_type": "unknown",
-      "raw_swim_type": "Summer LTS",
+      "swim_type": "school_class",
+      "raw_swim_type": "SFUSD Class",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "10:30",
+      "end_time": "11:00",
+      "swim_type": "senior_therapy",
+      "raw_swim_type": "Senior/Therapy Swim (main pool) 10:30am-Noon Parent/Tot Lesson (small pool)",
       "notes": ""
     },
     {
       "day_of_week": "tuesday",
       "start_time": "12:30",
-      "end_time": "13:30",
-      "swim_type": "senior_therapy",
-      "raw_swim_type": "Senior Swim 10:30am-Noon Lap Swim",
+      "end_time": "14:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim",
       "notes": ""
     },
     {
       "day_of_week": "tuesday",
-      "start_time": "14:00",
+      "start_time": "14:30",
       "end_time": "15:30",
       "swim_type": "family_swim",
-      "raw_swim_type": "Family Swim",
+      "raw_swim_type": "Family Swim/Lap swim (small/main) (Lap until 4pm)",
       "notes": ""
     },
     {
       "day_of_week": "tuesday",
-      "start_time": "16:00",
+      "start_time": "15:30",
       "end_time": "17:30",
-      "swim_type": "unknown",
-      "raw_swim_type": "Summer LTS",
+      "swim_type": "lessons",
+      "raw_swim_type": "Learn To Swim",
       "notes": ""
     },
     {
@@ -59,34 +67,42 @@
     },
     {
       "day_of_week": "wednesday",
-      "start_time": "08:30",
-      "end_time": "10:00",
-      "swim_type": "unknown",
-      "raw_swim_type": "Summer LTS",
+      "start_time": "09:00",
+      "end_time": "10:15",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim",
       "notes": ""
     },
     {
       "day_of_week": "wednesday",
       "start_time": "12:30",
-      "end_time": "13:30",
+      "end_time": "15:00",
       "swim_type": "senior_therapy",
-      "raw_swim_type": "Senior Swim 10:30am-Noon Lap Swim",
+      "raw_swim_type": "Senior/Therapy Swim 10:30am-Noon Lap Swim (main pool)",
       "notes": ""
     },
     {
       "day_of_week": "wednesday",
       "start_time": "14:00",
-      "end_time": "15:30",
+      "end_time": "15:00",
       "swim_type": "family_swim",
-      "raw_swim_type": "Family Swim",
+      "raw_swim_type": "Family Swim (small pool)",
       "notes": ""
     },
     {
       "day_of_week": "wednesday",
-      "start_time": "16:00",
+      "start_time": "15:30",
       "end_time": "17:30",
-      "swim_type": "unknown",
-      "raw_swim_type": "Summer LTS",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim (main pool)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "wednesday",
+      "start_time": "15:30",
+      "end_time": "17:30",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Family Swim ( s (small pool)",
       "notes": ""
     },
     {
@@ -109,37 +125,37 @@
       "day_of_week": "thursday",
       "start_time": "08:30",
       "end_time": "10:00",
-      "swim_type": "unknown",
-      "raw_swim_type": "Summer LTS",
+      "swim_type": "school_class",
+      "raw_swim_type": "SFUSD Class",
       "notes": ""
     },
     {
       "day_of_week": "thursday",
-      "start_time": "12:30",
-      "end_time": "14:00",
+      "start_time": "10:00",
+      "end_time": "11:00",
       "swim_type": "senior_therapy",
-      "raw_swim_type": "Senior Swim 10:30am-Noon SFRPD Camps",
+      "raw_swim_type": "Senior/Therapy Swim",
+      "notes": ""
+    },
+    {
+      "day_of_week": "thursday",
+      "start_time": "11:30",
+      "end_time": "14:00",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim Closed every 4th Thursday of the month",
       "notes": ""
     },
     {
       "day_of_week": "thursday",
       "start_time": "14:30",
-      "end_time": "15:30",
+      "end_time": "17:00",
       "swim_type": "lap_swim",
       "raw_swim_type": "Lap Swim",
       "notes": ""
     },
     {
       "day_of_week": "thursday",
-      "start_time": "16:00",
-      "end_time": "17:30",
-      "swim_type": "unknown",
-      "raw_swim_type": "Summer LTS",
-      "notes": ""
-    },
-    {
-      "day_of_week": "thursday",
-      "start_time": "18:00",
+      "start_time": "17:30",
       "end_time": "19:30",
       "swim_type": "family_swim",
       "raw_swim_type": "Family Swim",
@@ -149,40 +165,32 @@
       "day_of_week": "friday",
       "start_time": "08:30",
       "end_time": "10:00",
-      "swim_type": "unknown",
-      "raw_swim_type": "Summer LTS",
+      "swim_type": "school_class",
+      "raw_swim_type": "SFUSD Class",
       "notes": ""
     },
     {
       "day_of_week": "friday",
-      "start_time": "10:30",
-      "end_time": "12:30",
+      "start_time": "12:00",
+      "end_time": "13:00",
+      "swim_type": "aqua_fitness",
+      "raw_swim_type": "Senior/Therapy/Access Swim 10:30am-Noon Water Exercise",
+      "notes": ""
+    },
+    {
+      "day_of_week": "friday",
+      "start_time": "13:30",
+      "end_time": "15:00",
       "swim_type": "lap_swim",
       "raw_swim_type": "Lap Swim",
       "notes": ""
     },
     {
       "day_of_week": "friday",
-      "start_time": "13:00",
-      "end_time": "14:00",
-      "swim_type": "aqua_fitness",
-      "raw_swim_type": "Water Exercise",
-      "notes": ""
-    },
-    {
-      "day_of_week": "friday",
-      "start_time": "14:00",
-      "end_time": "15:30",
-      "swim_type": "family_swim",
-      "raw_swim_type": "Family Swim",
-      "notes": ""
-    },
-    {
-      "day_of_week": "friday",
-      "start_time": "16:00",
+      "start_time": "15:30",
       "end_time": "17:30",
-      "swim_type": "unknown",
-      "raw_swim_type": "Summer LTS",
+      "swim_type": "lessons",
+      "raw_swim_type": "Learn to Swim",
       "notes": ""
     },
     {
@@ -196,9 +204,17 @@
     {
       "day_of_week": "saturday",
       "start_time": "09:00",
+      "end_time": "10:30",
+      "swim_type": "lap_swim",
+      "raw_swim_type": "Lap Swim (main pool only)",
+      "notes": ""
+    },
+    {
+      "day_of_week": "saturday",
+      "start_time": "09:00",
       "end_time": "11:00",
       "swim_type": "lessons",
-      "raw_swim_type": "Lap Swim (deep pool only) 9am-10:30am Learn To Swim",
+      "raw_swim_type": "Learn To Swim",
       "notes": ""
     },
     {
