@@ -2,11 +2,11 @@
   "pool_id": "balboa",
   "pool_name": "Balboa Pool",
   "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/Balboa-Pool-212",
-  "source_pdf_url": "https://sfrecpark.org/DocumentCenter/View/29797",
-  "source_pdf_anchor_text": "2026 Balboa Pool Interim Schedule Aug 11 to Aug 29",
-  "fetched_at": "2026-08-31T19:37:06.885634+00:00",
-  "effective_start": "2026-08-11",
-  "effective_end": "2026-08-29",
+  "source_pdf_url": "https://sfrecpark.org/DocumentCenter/View/29796",
+  "source_pdf_anchor_text": "2026 Balboa Fall Schedule (Sept 1-Dec 12)",
+  "fetched_at": "2026-09-07T18:22:18.535333+00:00",
+  "effective_start": "2026-09-01",
+  "effective_end": "2026-12-12",
   "session_count": 29,
   "sessions": [
     {
@@ -46,15 +46,23 @@
       "start_time": "14:30",
       "end_time": "15:30",
       "swim_type": "family_swim",
-      "raw_swim_type": "Family Swim/Lap swim (small/main) (Lap until 4pm)",
+      "raw_swim_type": "Family/Lap Swim (small/main) (Lap swim until 4pm)",
       "notes": ""
     },
     {
       "day_of_week": "tuesday",
       "start_time": "15:30",
-      "end_time": "17:30",
+      "end_time": "16:00",
       "swim_type": "lessons",
-      "raw_swim_type": "Learn To Swim",
+      "raw_swim_type": "Adult Swim Lessons",
+      "notes": ""
+    },
+    {
+      "day_of_week": "tuesday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Family/Lap Swim (small/main)",
       "notes": ""
     },
     {
@@ -93,16 +101,8 @@
       "day_of_week": "wednesday",
       "start_time": "15:30",
       "end_time": "17:30",
-      "swim_type": "lap_swim",
-      "raw_swim_type": "Lap Swim (main pool)",
-      "notes": ""
-    },
-    {
-      "day_of_week": "wednesday",
-      "start_time": "15:30",
-      "end_time": "17:30",
-      "swim_type": "family_swim",
-      "raw_swim_type": "Family Swim ( s (small pool)",
+      "swim_type": "lessons",
+      "raw_swim_type": "Learn To Swim",
       "notes": ""
     },
     {
@@ -134,7 +134,7 @@
       "start_time": "10:00",
       "end_time": "11:00",
       "swim_type": "senior_therapy",
-      "raw_swim_type": "Senior/Therapy Swim",
+      "raw_swim_type": "S enior/Therapy swim",
       "notes": ""
     },
     {
@@ -174,7 +174,7 @@
       "start_time": "12:00",
       "end_time": "13:00",
       "swim_type": "aqua_fitness",
-      "raw_swim_type": "Senior/Therapy/Access Swim 10:30am-Noon Water Exercise",
+      "raw_swim_type": "Senior/Therapy/ Access Swim 10:30am-Noon Water Exercise",
       "notes": ""
     },
     {
@@ -190,7 +190,7 @@
       "start_time": "15:30",
       "end_time": "17:30",
       "swim_type": "lessons",
-      "raw_swim_type": "Learn to Swim",
+      "raw_swim_type": "Learn To Swim",
       "notes": ""
     },
     {
