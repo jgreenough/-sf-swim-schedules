@@ -2,12 +2,12 @@
   "pool_id": "mlk",
   "pool_name": "Martin Luther King Jr. Pool",
   "source_page_url": "https://sfrecpark.org/Facilities/Facility/Details/Martin-Luther-King-Jr-Pool-216",
-  "source_pdf_url": "https://sfrecpark.org/DocumentCenter/View/29802",
-  "source_pdf_anchor_text": "MLK Pool_Fall2026_pt1_Aug 18_Sep26",
-  "fetched_at": "2026-10-26T19:31:31.157399+00:00",
-  "effective_start": "2026-08-18",
-  "effective_end": "2026-09-26",
-  "session_count": 41,
+  "source_pdf_url": "https://sfrecpark.org/DocumentCenter/View/30210",
+  "source_pdf_anchor_text": "MLK Pool_Fall2026_pt2_Sep29_Dec 12",
+  "fetched_at": "2026-11-02T22:27:41.909339+00:00",
+  "effective_start": "2026-09-29",
+  "effective_end": "2026-12-12",
+  "session_count": 37,
   "sessions": [
     {
       "day_of_week": "tuesday",
@@ -52,17 +52,9 @@
     {
       "day_of_week": "tuesday",
       "start_time": "15:30",
-      "end_time": "17:30",
-      "swim_type": "lap_swim",
-      "raw_swim_type": "Lap Swim (4)",
-      "notes": ""
-    },
-    {
-      "day_of_week": "tuesday",
-      "start_time": "15:30",
       "end_time": "18:00",
-      "swim_type": "lessons",
-      "raw_swim_type": "Swim Lessons (4 & shallow)",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Bayview Safety Swim & Splash (10)",
       "notes": ""
     },
     {
@@ -132,17 +124,9 @@
     {
       "day_of_week": "wednesday",
       "start_time": "15:30",
-      "end_time": "17:30",
-      "swim_type": "lap_swim",
-      "raw_swim_type": "Lap Swim (4)",
-      "notes": ""
-    },
-    {
-      "day_of_week": "wednesday",
-      "start_time": "15:30",
       "end_time": "18:00",
-      "swim_type": "lessons",
-      "raw_swim_type": "Swim Lessons (4 & shallow)",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Bayview Safety Swim & Splash (10)",
       "notes": ""
     },
     {
@@ -182,7 +166,7 @@
       "start_time": "12:30",
       "end_time": "15:30",
       "swim_type": "family_swim",
-      "raw_swim_type": "Rec/Family Swim (shallow) CLOSED (8/27 & 9/24)",
+      "raw_swim_type": "Rec/Family Swim (shallow) CLOSED (10/22)",
       "notes": ""
     },
     {
@@ -190,23 +174,15 @@
       "start_time": "12:30",
       "end_time": "15:30",
       "swim_type": "lap_swim",
-      "raw_swim_type": "Lap Swim (8) CLOSED (8/27 & 9/24)",
-      "notes": ""
-    },
-    {
-      "day_of_week": "thursday",
-      "start_time": "15:30",
-      "end_time": "17:30",
-      "swim_type": "lap_swim",
-      "raw_swim_type": "Lap Swim (4)",
+      "raw_swim_type": "Lap Swim (8) CLOSED (10/22)",
       "notes": ""
     },
     {
       "day_of_week": "thursday",
       "start_time": "15:30",
       "end_time": "18:00",
-      "swim_type": "lessons",
-      "raw_swim_type": "Swim Lessons (4 & shallow)",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Bayview Safety Swim & Splash (10)",
       "notes": ""
     },
     {
@@ -276,17 +252,9 @@
     {
       "day_of_week": "friday",
       "start_time": "15:30",
-      "end_time": "17:30",
-      "swim_type": "lap_swim",
-      "raw_swim_type": "Lap Swim (4)",
-      "notes": ""
-    },
-    {
-      "day_of_week": "friday",
-      "start_time": "15:30",
       "end_time": "18:00",
-      "swim_type": "lessons",
-      "raw_swim_type": "Swim Lessons (4 & shallow)",
+      "swim_type": "family_swim",
+      "raw_swim_type": "Bayview Safety Swim & Splash (10)",
       "notes": ""
     },
     {
